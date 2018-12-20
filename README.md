@@ -55,4 +55,7 @@ Starter Gatsby | React | Strapi
 		gatsby develop
     ```
 
-ENJOY !!
+
+<h1 align="center">
+  ENJOY !!
+</h1>
