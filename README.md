@@ -33,10 +33,10 @@ Starter Gatsby | React | Strapi
 
 		```sh
 		cd my-default-starter/
-    gatsby develop
+		gatsby develop
     ```
 
-1.  **deploy strapi and install.**
+1.  **Deploy strapi and install.**
 
     Navigate into directory of testapi.
 
@@ -46,7 +46,7 @@ Starter Gatsby | React | Strapi
     ```
 <a href="https://strapi.io/documentation/3.x.x/getting-started/quick-start.html#_2-register-the-first-user">Go to documentation to create first user, create first article and verify Roles & Permissions View</a>
 
-1.  **run gatsby.**
+1.  **Run gatsby.**
 
     Navigate into directory blog and start it up.
 
