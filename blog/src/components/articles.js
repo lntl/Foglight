@@ -1,11 +1,11 @@
-import React, { Component } from 'react'
-import { Link,StaticQuery, graphql } from 'gatsby'
+import React from 'react'
+import { Link, StaticQuery, graphql } from 'gatsby'
 
 
 export default () => (
   <StaticQuery
     query={graphql`
-      query ArticleQuery {
+      query ArticlesQuery {
         allStrapiArticle {
           edges {
             node {
@@ -18,60 +18,17 @@ export default () => (
       }
     `}
     render={data => (
-      <div className="container">
-        <ul>
-          {data.allStrapiArticle.edges.map(document => (
-            <li className="article">
-              <h2>
-                {document.node.title}
-              </h2>
-              <p>{document.node.content}</p>
-            </li>
-          ))}
-        </ul>
-        <Link to="/">Home</Link>
-      </div>
+      <ul>
+        {data.allStrapiArticle.edges.map(document => (
+          <li className="article" key={document.node.id} >
+            <h2>
+              {document.node.title}
+            </h2>
+            <p>{document.node.content}</p>
+            <Link className="btn" to={"/article?id="+document.node.id}>Voir plus</Link>
+          </li>
+        ))}
+      </ul>
     )}
   />
 )
-
-
-
-
-
-// class AllArticles extends Component {
-//   constructor(props) {
-//     super(props);
-//   }
-
-//   componentDidMount(){
-//     console.log(pageQuery);
-//   }
-
-//   render() {
-//     return (
-//       <div className="ariane">
-//         test
-
-
-//         <Link to="/">Home</Link>
-//       </div>
-//     );
-//   }
-// }
-
-// export default AllArticles
-
-// export const pageQuery = graphql`
-//   query IndexQuery {
-//     allStrapiArticle {
-//       edges {
-//         node {
-//           id
-//           title
-//           content
-//         }
-//       }
-//     }
-//   }
-// `

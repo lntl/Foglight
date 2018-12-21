@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
-    description: 'Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.',
+    title: 'LN',
+    description: 'description du site',
     author: '@gatsbyjs',
   },
   plugins: [
@@ -18,11 +18,22 @@ module.exports = {
       resolve: 'gatsby-source-strapi',
       options: {
         apiURL: 'http://localhost:1337',
-        contentTypes: [ // List of the Content Types you want to be able to request from Gatsby.
+        contentTypes: [
           'article'
         ]
       },
     },
+    `gatsby-transformer-remark`,
+    // 'gatsby-plugin-google-fonts',
+    // {
+    //   resolve: 'gatsby-source-strapi',
+    //   options: {
+    //     fonts: [
+    //       `Roboto`,
+    //       `source sans pro\:300,400,500,700`,
+    //     ]
+    //   }
+    // },
     'gatsby-plugin-sharp',
     {
       resolve: `gatsby-plugin-manifest`,
@@ -33,11 +44,8 @@ module.exports = {
         background_color: '#663399',
         theme_color: '#663399',
         display: 'minimal-ui',
-        icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
+        icon: 'src/images/gatsby-icon.png',
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.app/offline
-    // 'gatsby-plugin-offline',
   ],
 }

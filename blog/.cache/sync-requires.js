@@ -5,9 +5,10 @@ const preferDefault = m => m && m.default || m
 
 
 exports.components = {
-  "component---cache-dev-404-page-js": hot(preferDefault(require("C:\\Users\\Killian\\repo\\gatsby-strap\\blog\\.cache\\dev-404-page.js"))),
-  "component---src-pages-404-js": hot(preferDefault(require("C:\\Users\\Killian\\repo\\gatsby-strap\\blog\\src\\pages\\404.js"))),
-  "component---src-pages-index-js": hot(preferDefault(require("C:\\Users\\Killian\\repo\\gatsby-strap\\blog\\src\\pages\\index.js"))),
-  "component---src-pages-articles-js": hot(preferDefault(require("C:\\Users\\Killian\\repo\\gatsby-strap\\blog\\src\\pages\\articles.js")))
+  "component---cache-dev-404-page-js": hot(preferDefault(require("C:\\Users\\Killian\\repo\\gatsby-strapi\\blog\\.cache\\dev-404-page.js"))),
+  "component---src-pages-404-js": hot(preferDefault(require("C:\\Users\\Killian\\repo\\gatsby-strapi\\blog\\src\\pages\\404.js"))),
+  "component---src-pages-article-js": hot(preferDefault(require("C:\\Users\\Killian\\repo\\gatsby-strapi\\blog\\src\\pages\\article.js"))),
+  "component---src-pages-articles-js": hot(preferDefault(require("C:\\Users\\Killian\\repo\\gatsby-strapi\\blog\\src\\pages\\articles.js"))),
+  "component---src-pages-index-js": hot(preferDefault(require("C:\\Users\\Killian\\repo\\gatsby-strapi\\blog\\src\\pages\\index.js")))
 }
 

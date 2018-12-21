@@ -1,33 +1,21 @@
-import React, { Component } from 'react'
-import { Link,graphql } from 'gatsby'
+import React from 'react'
+import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 import Image from '../components/image'
 import SEO from '../components/seo'
+import Articles from '../components/articles'
 
 const IndexPage = ({ data }) => (
   <Layout>
     <SEO title="Home" keywords={['gatsby', 'application', 'react']} />
-
-    <div style={{ maxWidth: '300px', marginBottom: '1.45rem' }}>
-      <Image />
+    <div className="content-site">
+      <div className="container">
+      <h1>Page d'accueil</h1>
+        <Image />
+      </div>
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )
 
 export default IndexPage
-
-// export const pageQuery = graphql`
-//   query IndexQuery {
-//     allStrapiArticle {
-//       edges {
-//         node {
-//           id
-//           title
-//           content
-//         }
-//       }
-//     }
-//   }
-// `

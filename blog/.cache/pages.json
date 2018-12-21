@@ -15,6 +15,11 @@
         "path": "/404/"
     },
     {
+        "componentChunkName": "component---src-pages-article-js",
+        "jsonName": "article-c3a",
+        "path": "/article/"
+    },
+    {
         "componentChunkName": "component---src-pages-articles-js",
         "jsonName": "articles-18f",
         "path": "/articles/"

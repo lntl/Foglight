@@ -5,15 +5,9 @@ import React from 'react'
 const Header = ({ siteTitle }) => (
   <div className="header">
     <div className="container">
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-          }}
-        >
-          {siteTitle}
+      <h1>
+        <Link to="/">
+          Logo
         </Link>
       </h1>
       <ul className="header-link">
