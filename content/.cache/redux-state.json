@@ -1511,8 +1511,8 @@
   "componentDataDependencies": {
     "nodes": {
       "Site": [
-        "sq--src-components-layout-js",
-        "sq--src-components-seo-js"
+        "sq--src-components-seo-js",
+        "sq--src-components-layout-js"
       ],
       "88f85d3b-8245-54e3-844c-258deae18322": [],
       "f11e9da2-e479-552d-bad6-421db02676ba": [],
