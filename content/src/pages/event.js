@@ -4,7 +4,7 @@ import DateFormat from 'dateformat';
 
 
 
-class Article extends Component {
+class EventPage extends Component {
 
   constructor(props) {
     super(props);
@@ -15,11 +15,8 @@ class Article extends Component {
     };
   }
   componentDidMount() {
-    let uri = document.location.search;
-    uri = uri.split('=');
-    console.log(uri)
     this.mounted = true;
-    fetch("http://localhost:1337/articles?id="+uri[1])
+    fetch("http://localhost:1337/evenements")
     .then(res => res.json())
     .then(
       (result) => {
@@ -42,12 +39,11 @@ class Article extends Component {
   render() {
     return (
       <div>
-        <Header siteTitle="Article"/>
+        <Header siteTitle="Evenements"/>
         <div className="content-site">
           <div className="container">
-            <h1>Article</h1>
+            <h1>Evenements</h1>
             <ul>
-              {console.log(this.state)}
               {this.state.items.map((item)=>
                 <li key={item.id}>{item.title}
                 <span className="date-time">
@@ -63,43 +59,4 @@ class Article extends Component {
   }
 }
 
-export default Article
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// import React from 'react'
-// import { Link,StaticQuery, graphql } from 'gatsby'
-
-// const urlParams = new URLSearchParams(document.location.search)
-// const key = urlParams.get('id');
-// const request = 'query={graphql`query ArticleQuery {strapiArticle(id: {eq: '+key+'}){ title content }}`}'
-
-// export default () => (
-//   <StaticQuery
-//     query={graphql`
-//       query ArticleQuery {
-//         strapiArticle(id: {eq: "5c1ba4138c1a7740f0c04a03"}) {
-//           title
-//           content
-//         }
-//       }
-//     `}
-//     render={data => (
-//       <div>
-//         <h1>{data.strapiArticle.title}</h1>
-//         <p>{data.strapiArticle.content}</p>
-//       </div>
-//     )}
-//   />
-// )
+export default EventPage

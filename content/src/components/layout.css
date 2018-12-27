@@ -113,6 +113,14 @@ h1 {
   font-size: 40px;
   padding-bottom: 20px;
 }
+.container ul{
+  position: relative;
+}
+.date-time{
+  position: absolute; right: 0;
+}
+
+
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;

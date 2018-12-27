@@ -9,6 +9,7 @@ exports.components = {
   "component---src-pages-404-js": hot(preferDefault(require("C:\\Users\\Killian\\repo\\gatsby-strapi\\content\\src\\pages\\404.js"))),
   "component---src-pages-article-js": hot(preferDefault(require("C:\\Users\\Killian\\repo\\gatsby-strapi\\content\\src\\pages\\article.js"))),
   "component---src-pages-articles-js": hot(preferDefault(require("C:\\Users\\Killian\\repo\\gatsby-strapi\\content\\src\\pages\\articles.js"))),
+  "component---src-pages-event-js": hot(preferDefault(require("C:\\Users\\Killian\\repo\\gatsby-strapi\\content\\src\\pages\\event.js"))),
   "component---src-pages-index-js": hot(preferDefault(require("C:\\Users\\Killian\\repo\\gatsby-strapi\\content\\src\\pages\\index.js")))
 }
 

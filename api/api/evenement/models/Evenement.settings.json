@@ -1,0 +1,25 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "evenement",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "default": "",
+      "type": "text"
+    },
+    "content": {
+      "default": "",
+      "type": "string"
+    },
+    "create_date": {
+      "default": "",
+      "type": "date"
+    }
+  }
+}

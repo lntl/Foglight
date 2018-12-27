@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/evenements",
+      "handler": "Evenement.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/evenements/count",
+      "handler": "Evenement.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/evenements/:_id",
+      "handler": "Evenement.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/evenements",
+      "handler": "Evenement.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/evenements/:_id",
+      "handler": "Evenement.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/evenements/:_id",
+      "handler": "Evenement.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

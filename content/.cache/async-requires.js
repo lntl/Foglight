@@ -6,6 +6,7 @@ exports.components = {
   "component---src-pages-404-js": () => import("C:\\Users\\Killian\\repo\\gatsby-strapi\\content\\src\\pages\\404.js" /* webpackChunkName: "component---src-pages-404-js" */),
   "component---src-pages-article-js": () => import("C:\\Users\\Killian\\repo\\gatsby-strapi\\content\\src\\pages\\article.js" /* webpackChunkName: "component---src-pages-article-js" */),
   "component---src-pages-articles-js": () => import("C:\\Users\\Killian\\repo\\gatsby-strapi\\content\\src\\pages\\articles.js" /* webpackChunkName: "component---src-pages-articles-js" */),
+  "component---src-pages-event-js": () => import("C:\\Users\\Killian\\repo\\gatsby-strapi\\content\\src\\pages\\event.js" /* webpackChunkName: "component---src-pages-event-js" */),
   "component---src-pages-index-js": () => import("C:\\Users\\Killian\\repo\\gatsby-strapi\\content\\src\\pages\\index.js" /* webpackChunkName: "component---src-pages-index-js" */)
 }
 
