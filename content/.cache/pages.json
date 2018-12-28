@@ -15,6 +15,11 @@
         "path": "/404/"
     },
     {
+        "componentChunkName": "component---src-pages-admin-js",
+        "jsonName": "admin-d15",
+        "path": "/admin/"
+    },
+    {
         "componentChunkName": "component---src-pages-article-js",
         "jsonName": "article-c3a",
         "path": "/article/"
@@ -23,6 +28,11 @@
         "componentChunkName": "component---src-pages-articles-js",
         "jsonName": "articles-18f",
         "path": "/articles/"
+    },
+    {
+        "componentChunkName": "component---src-pages-connect-js",
+        "jsonName": "connect-725",
+        "path": "/connect/"
     },
     {
         "componentChunkName": "component---cache-dev-404-page-js",
