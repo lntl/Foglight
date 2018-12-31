@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Header from '../components/header';
+import AdminPanel from '../components/admin';
 import DateFormat from 'dateformat';
 
 
@@ -42,15 +43,17 @@ class Admin extends Component {
         <div className="content-site">
           <div className="container">
             <h1>Admin</h1>
-            <form onSubmit={this.handleSubmit}>
+            <AdminPanel/>
+            
+            {/* <form onSubmit={this.handleSubmit} className="foglight-form">
             <h2>Ajouter un {this.state.typeof}</h2>
               <select name="typeof" onChange={this.handleChange}>
                 <option value="evenement">Evenements</option>
                 <option value="article">Articles</option>
               </select>
-              <input type="text" name="title" onChange={this.handleChange} value={this.state.title || ''} placeholder="title" />
+              <input type="text" name="title" onChange={this.handleChange} value={this.state.title || ''} placeholder="Title of event" />
               <input type="submit" value="ok"/>
-            </form>
+            </form> */}
           </div>
         </div>
       </div>

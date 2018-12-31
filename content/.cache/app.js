@@ -1,6 +1,7 @@
 import React from "react"
 import ReactDOM from "react-dom"
 import domReady from "domready"
+import { hot } from "react-hot-loader"
 
 import socketIo from "./socketIo"
 import emitter from "./emitter"
@@ -50,8 +51,7 @@ apiRunnerAsync(`onClientEntry`).then(() => {
   loader.addDevRequires(syncRequires)
 
   loader.getResourcesForPathname(window.location.pathname).then(() => {
-    const preferDefault = m => (m && m.default) || m
-    let Root = preferDefault(require(`./root`))
+    let Root = hot(module)(preferDefault(require(`./root`)))
     domReady(() => {
       renderer(<Root />, rootElement, () => {
         apiRunner(`onInitialClientRender`)
@@ -59,6 +59,8 @@ apiRunnerAsync(`onClientEntry`).then(() => {
     })
   })
 })
+
+const preferDefault = m => (m && m.default) || m
 
 function supportsServiceWorkers(location, navigator) {
   if (location.hostname === `localhost` || location.protocol === `https:`) {

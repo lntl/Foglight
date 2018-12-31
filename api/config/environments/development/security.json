@@ -15,12 +15,12 @@
     "value": ""
   },
   "hsts": {
-    "enabled": false,
+    "enabled": true,
     "maxAge": 31536000,
     "includeSubDomains": true
   },
   "xframe": {
-    "enabled": false,
+    "enabled": true,
     "value": "SAMEORIGIN"
   },
   "xss": {
@@ -56,5 +56,8 @@
     "enabled": false,
     "whiteList": [],
     "blackList": []
+  },
+  "xssProtection": {
+    "enabled": true
   }
 }

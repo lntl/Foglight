@@ -102,7 +102,8 @@ const fetchResource = resourceName => {
   return new Promise(resolve => {
     const fetchPromise = resourceFunction();
     let failed = false;
-    return fetchPromise.catch(() => {
+    return fetchPromise.catch(e => {
+      console.error(e);
       failed = true;
     }).then(component => {
       fetchHistory.push({
@@ -196,19 +197,8 @@ const queue = {
     queue.getResourcesForPathname(path);
   },
   enqueue: path => {
-    if (!apiRunner) console.error(`Run setApiRunnerForLoader() before enqueing paths`); // Skip prefetching if we know user is on slow or constrained connection
-
-    if (`connection` in navigator) {
-      if ((navigator.connection.effectiveType || ``).includes(`2g`)) {
-        return false;
-      }
-
-      if (navigator.connection.saveData) {
-        return false;
-      }
-    } // Tell plugins with custom prefetching logic that they should start
+    if (!apiRunner) console.error(`Run setApiRunnerForLoader() before enqueing paths`); // Tell plugins with custom prefetching logic that they should start
     // prefetching this path.
-
 
     onPrefetchPathname(path); // If a plugin has disabled core prefetching, stop now.
 

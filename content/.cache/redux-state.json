@@ -4,24 +4,24 @@
       "jsonName": "dev-404-page-5f9",
       "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "C:/Users/Killian/repo/gatsby-strapi/content/.cache/dev-404-page.js",
+      "component": "/Users/lucas/repo/gatsby-strapi/content/.cache/dev-404-page.js",
       "componentChunkName": "component---cache-dev-404-page-js",
       "context": {},
       "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
       "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
-      "componentPath": "C:/Users/Killian/repo/gatsby-strapi/content/.cache/dev-404-page.js",
+      "componentPath": "/Users/lucas/repo/gatsby-strapi/content/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "7bb3f78c9f1f3377f85f7c662e82e2bd",
+        "contentDigest": "29bce04571f210f312ec62f8624027b1",
         "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
         "owner": "internal-data-bridge"
       }
     },
     "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5": {
-      "resolve": "C:/Users/Killian/repo/gatsby-strapi/content/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "resolve": "/Users/lucas/repo/gatsby-strapi/content/node_modules/gatsby/dist/internal-plugins/dev-404-page",
       "id": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
       "name": "dev-404-page",
       "version": "1.0.0",
@@ -33,7 +33,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "C:/Users/Killian/repo/gatsby-strapi/content/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "pluginFilepath": "/Users/lucas/repo/gatsby-strapi/content/node_modules/gatsby/dist/internal-plugins/dev-404-page",
       "packageJson": {
         "name": "dev-404-page",
         "description": "Internal plugin to add a 404 page in development with helpful information",
@@ -50,13 +50,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "076d98b3a085322c8b7d68041d55748e",
+        "contentDigest": "751be46a6e29fbf18def5ac5e38bc045",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "1fc32581-893a-55e8-8927-bcd667e2b700": {
-      "resolve": "C:/Users/Killian/repo/gatsby-strapi/content/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "resolve": "/Users/lucas/repo/gatsby-strapi/content/node_modules/gatsby/dist/internal-plugins/load-babel-config",
       "id": "1fc32581-893a-55e8-8927-bcd667e2b700",
       "name": "load-babel-config",
       "version": "1.0.0",
@@ -68,7 +68,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "C:/Users/Killian/repo/gatsby-strapi/content/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "pluginFilepath": "/Users/lucas/repo/gatsby-strapi/content/node_modules/gatsby/dist/internal-plugins/load-babel-config",
       "packageJson": {
         "name": "load-babel-config",
         "description": "Internal plugin that handles loading Babel configs",
@@ -85,13 +85,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "d8bf1c2454571c62abb2a74c86c0cb8a",
+        "contentDigest": "49b7e0c0c288cc8a34690f5ba294ea53",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "a5079d69-ba80-53dc-82f9-0f440bd5448c": {
-      "resolve": "C:/Users/Killian/repo/gatsby-strapi/content/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "resolve": "/Users/lucas/repo/gatsby-strapi/content/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
       "id": "a5079d69-ba80-53dc-82f9-0f440bd5448c",
       "name": "internal-data-bridge",
       "version": "1.0.0",
@@ -104,7 +104,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "C:/Users/Killian/repo/gatsby-strapi/content/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "pluginFilepath": "/Users/lucas/repo/gatsby-strapi/content/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
       "packageJson": {
         "name": "internal-data-bridge",
         "description": "An internal Gatsby plugin which creates data nodes from internal data",
@@ -121,13 +121,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "8725f9e3487c65bbdd06683de876078c",
+        "contentDigest": "2831caca466bfe94ecbf2ef17e8c844d",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "f795702c-a3b8-5a88-88ee-5d06019d44fa": {
-      "resolve": "C:/Users/Killian/repo/gatsby-strapi/content/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "resolve": "/Users/lucas/repo/gatsby-strapi/content/node_modules/gatsby/dist/internal-plugins/prod-404",
       "id": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
       "name": "prod-404",
       "version": "1.0.0",
@@ -139,7 +139,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "C:/Users/Killian/repo/gatsby-strapi/content/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "pluginFilepath": "/Users/lucas/repo/gatsby-strapi/content/node_modules/gatsby/dist/internal-plugins/prod-404",
       "packageJson": {
         "name": "prod-404",
         "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
@@ -156,13 +156,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "4117890b1bf78f7c3c10bd0771b66282",
+        "contentDigest": "90cf2fb44c47f99daab03008f2038e9f",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "84dad27f-1d44-51fc-ac56-4db2e5222995": {
-      "resolve": "C:/Users/Killian/repo/gatsby-strapi/content/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "resolve": "/Users/lucas/repo/gatsby-strapi/content/node_modules/gatsby/dist/internal-plugins/query-runner",
       "id": "84dad27f-1d44-51fc-ac56-4db2e5222995",
       "name": "query-runner",
       "version": "1.0.0",
@@ -174,7 +174,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "C:/Users/Killian/repo/gatsby-strapi/content/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "pluginFilepath": "/Users/lucas/repo/gatsby-strapi/content/node_modules/gatsby/dist/internal-plugins/query-runner",
       "packageJson": {
         "name": "query-runner",
         "description": "Internal plugin for running queries",
@@ -191,51 +191,16 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "9557bc875c4596fb1742de7226831b40",
-        "type": "SitePlugin",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "6f4b2fa9-66b5-5205-a03f-140005a2cfe5": {
-      "resolve": "C:/Users/Killian/repo/gatsby-strapi/content/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
-      "id": "6f4b2fa9-66b5-5205-a03f-140005a2cfe5",
-      "name": "webpack-theme-component-shadowing",
-      "version": "1.0.0",
-      "pluginOptions": {
-        "plugins": []
-      },
-      "nodeAPIs": [
-        "onCreateWebpackConfig"
-      ],
-      "browserAPIs": [],
-      "ssrAPIs": [],
-      "pluginFilepath": "C:/Users/Killian/repo/gatsby-strapi/content/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
-      "packageJson": {
-        "name": "webpack-theme-component-shadowing",
-        "description": "An internal Gatsby plugin which handles configuring webpack to ensure theme components fall back from the user's site to theme modules.",
-        "version": "1.0.0",
-        "main": "index.js",
-        "author": "Chris Biscardi <chris@christopherbiscardi.com>",
-        "license": "MIT",
-        "dependencies": [],
-        "devDependencies": [],
-        "peerDependencies": [],
-        "optionalDependecies": [],
-        "bundledDependecies": []
-      },
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "contentDigest": "d9e7aeef9d8b2c1de811b29253b74656",
+        "contentDigest": "961afdcc28d244a8098013a49c94f7a7",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "1943ff2f-9c0c-558d-8d0c-006603e8106a": {
-      "resolve": "C:/Users/Killian/repo/gatsby-strapi/content/node_modules/gatsby-plugin-react-helmet",
+      "resolve": "/Users/lucas/repo/gatsby-strapi/content/node_modules/gatsby-plugin-react-helmet",
       "id": "1943ff2f-9c0c-558d-8d0c-006603e8106a",
       "name": "gatsby-plugin-react-helmet",
-      "version": "3.0.4",
+      "version": "3.0.2",
       "pluginOptions": {
         "plugins": []
       },
@@ -244,11 +209,11 @@
       "ssrAPIs": [
         "onRenderBody"
       ],
-      "pluginFilepath": "C:/Users/Killian/repo/gatsby-strapi/content/node_modules/gatsby-plugin-react-helmet",
+      "pluginFilepath": "/Users/lucas/repo/gatsby-strapi/content/node_modules/gatsby-plugin-react-helmet",
       "packageJson": {
         "name": "gatsby-plugin-react-helmet",
         "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
-        "version": "3.0.4",
+        "version": "3.0.2",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -266,7 +231,10 @@
           "noscript",
           "style"
         ],
-        "author": "Kyle Mathews <matthews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "matthews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -285,7 +253,7 @@
           },
           {
             "name": "babel-preset-gatsby-package",
-            "version": "^0.1.3"
+            "version": "^0.1.2"
           },
           {
             "name": "cross-env",
@@ -308,20 +276,20 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "6c3027ae95edbedc5fa6a7c29854ed6a",
+        "contentDigest": "23e315a7f63aef4a774e6063a690d15f",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "4dc73399-3bab-5d54-9170-ce9fe1b2d13b": {
-      "resolve": "C:/Users/Killian/repo/gatsby-strapi/content/node_modules/gatsby-source-filesystem",
-      "id": "4dc73399-3bab-5d54-9170-ce9fe1b2d13b",
+    "5ae19366-8853-5cd2-a3c1-eadef824d781": {
+      "resolve": "/Users/lucas/repo/gatsby-strapi/content/node_modules/gatsby-source-filesystem",
+      "id": "5ae19366-8853-5cd2-a3c1-eadef824d781",
       "name": "gatsby-source-filesystem",
-      "version": "2.0.12",
+      "version": "2.0.8",
       "pluginOptions": {
         "plugins": [],
         "name": "images",
-        "path": "C:\\Users\\Killian\\repo\\gatsby-strapi\\content/src/images"
+        "path": "/Users/lucas/repo/gatsby-strapi/content/src/images"
       },
       "nodeAPIs": [
         "sourceNodes",
@@ -329,16 +297,19 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "C:/Users/Killian/repo/gatsby-strapi/content/node_modules/gatsby-source-filesystem",
+      "pluginFilepath": "/Users/lucas/repo/gatsby-strapi/content/node_modules/gatsby-source-filesystem",
       "packageJson": {
         "name": "gatsby-source-filesystem",
         "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
-        "version": "2.0.12",
+        "version": "2.0.8",
         "keywords": [
           "gatsby",
           "gatsby-plugin"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -409,7 +380,7 @@
           },
           {
             "name": "babel-preset-gatsby-package",
-            "version": "^0.1.3"
+            "version": "^0.1.2"
           },
           {
             "name": "cross-env",
@@ -428,16 +399,16 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "c83e1e2e60269c8f8d0a5d477b52136f",
+        "contentDigest": "d0892fd5ef548b441970c3b597ee60e1",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9": {
-      "resolve": "C:/Users/Killian/repo/gatsby-strapi/content/node_modules/gatsby-transformer-sharp",
+      "resolve": "/Users/lucas/repo/gatsby-strapi/content/node_modules/gatsby-transformer-sharp",
       "id": "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9",
       "name": "gatsby-transformer-sharp",
-      "version": "2.1.9",
+      "version": "2.1.8",
       "pluginOptions": {
         "plugins": []
       },
@@ -448,18 +419,21 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "C:/Users/Killian/repo/gatsby-strapi/content/node_modules/gatsby-transformer-sharp",
+      "pluginFilepath": "/Users/lucas/repo/gatsby-strapi/content/node_modules/gatsby-transformer-sharp",
       "packageJson": {
         "name": "gatsby-transformer-sharp",
         "description": "Gatsby transformer plugin for images using Sharp",
-        "version": "2.1.9",
+        "version": "2.1.8",
         "keywords": [
           "gatsby",
           "gatsby-plugin",
           "image",
           "sharp"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -498,7 +472,7 @@
           },
           {
             "name": "babel-preset-gatsby-package",
-            "version": "^0.1.3"
+            "version": "^0.1.2"
           },
           {
             "name": "cross-env",
@@ -521,13 +495,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "3373cb95f2b4dec6a8b8bc929a9f361a",
+        "contentDigest": "adce689965cf57417d17568fff6d98f3",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "df023fea-6045-5ca1-812f-a565ccebee48": {
-      "resolve": "C:/Users/Killian/repo/gatsby-strapi/content/node_modules/gatsby-source-strapi",
+      "resolve": "/Users/lucas/repo/gatsby-strapi/content/node_modules/gatsby-source-strapi",
       "id": "df023fea-6045-5ca1-812f-a565ccebee48",
       "name": "gatsby-source-strapi",
       "version": "0.0.6",
@@ -543,7 +517,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "C:/Users/Killian/repo/gatsby-strapi/content/node_modules/gatsby-source-strapi",
+      "pluginFilepath": "/Users/lucas/repo/gatsby-strapi/content/node_modules/gatsby-source-strapi",
       "packageJson": {
         "name": "gatsby-source-strapi",
         "description": "Gatsby source plugin for building websites using Strapi as a data source",
@@ -555,8 +529,8 @@
           "strapi"
         ],
         "author": {
-          "email": "hi@strapi.io",
           "name": "Strapi Solutions",
+          "email": "hi@strapi.io",
           "url": "http://strapi.io"
         },
         "license": "MIT",
@@ -619,13 +593,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "60a186bc0c13ad100251fd8d523bec48",
+        "contentDigest": "ca8cb34830d85f2017f3d376b09fe889",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "9f28d07a-37b6-51d1-b2d0-5071b57d6dd2": {
-      "resolve": "C:/Users/Killian/repo/gatsby-strapi/content/node_modules/gatsby-transformer-remark",
+      "resolve": "/Users/lucas/repo/gatsby-strapi/content/node_modules/gatsby-transformer-remark",
       "id": "9f28d07a-37b6-51d1-b2d0-5071b57d6dd2",
       "name": "gatsby-transformer-remark",
       "version": "2.1.17",
@@ -638,7 +612,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "C:/Users/Killian/repo/gatsby-strapi/content/node_modules/gatsby-transformer-remark",
+      "pluginFilepath": "/Users/lucas/repo/gatsby-strapi/content/node_modules/gatsby-transformer-remark",
       "packageJson": {
         "name": "gatsby-transformer-remark",
         "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
@@ -649,7 +623,10 @@
           "markdown",
           "remark"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -759,16 +736,16 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "2b566d91183da2309e33c65dadf2dd35",
+        "contentDigest": "ac61f72eb391db82fd124e060f0374a8",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "84d6154d-4241-556c-a679-cc8339cac100": {
-      "resolve": "C:/Users/Killian/repo/gatsby-strapi/content/node_modules/gatsby-plugin-sharp",
+      "resolve": "/Users/lucas/repo/gatsby-strapi/content/node_modules/gatsby-plugin-sharp",
       "id": "84d6154d-4241-556c-a679-cc8339cac100",
       "name": "gatsby-plugin-sharp",
-      "version": "2.0.15",
+      "version": "2.0.14",
       "pluginOptions": {
         "plugins": []
       },
@@ -777,11 +754,11 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "C:/Users/Killian/repo/gatsby-strapi/content/node_modules/gatsby-plugin-sharp",
+      "pluginFilepath": "/Users/lucas/repo/gatsby-strapi/content/node_modules/gatsby-plugin-sharp",
       "packageJson": {
         "name": "gatsby-plugin-sharp",
         "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
-        "version": "2.0.15",
+        "version": "2.0.14",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -789,7 +766,10 @@
           "image",
           "sharp"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -887,16 +867,16 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "d2c1fca34eda6539b77bb07af8525fe2",
+        "contentDigest": "4b58db37cdc66e7e44690bd95d52699c",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "112c12f8-b222-509b-abe0-dfe93a905df9": {
-      "resolve": "C:/Users/Killian/repo/gatsby-strapi/content/node_modules/gatsby-plugin-manifest",
+      "resolve": "/Users/lucas/repo/gatsby-strapi/content/node_modules/gatsby-plugin-manifest",
       "id": "112c12f8-b222-509b-abe0-dfe93a905df9",
       "name": "gatsby-plugin-manifest",
-      "version": "2.0.12",
+      "version": "2.0.9",
       "pluginOptions": {
         "plugins": [],
         "name": "gatsby-starter-default",
@@ -914,11 +894,11 @@
       "ssrAPIs": [
         "onRenderBody"
       ],
-      "pluginFilepath": "C:/Users/Killian/repo/gatsby-strapi/content/node_modules/gatsby-plugin-manifest",
+      "pluginFilepath": "/Users/lucas/repo/gatsby-strapi/content/node_modules/gatsby-plugin-manifest",
       "packageJson": {
         "name": "gatsby-plugin-manifest",
         "description": "Gatsby plugin which adds a manifest.webmanifest to make sites progressive web apps",
-        "version": "2.0.12",
+        "version": "2.0.9",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -929,7 +909,10 @@
           "progressive-web-app",
           "pwa"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -956,7 +939,7 @@
           },
           {
             "name": "babel-preset-gatsby-package",
-            "version": "^0.1.3"
+            "version": "^0.1.2"
           },
           {
             "name": "cross-env",
@@ -975,16 +958,16 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "dcd3f54a33c4858a2cc8f1c1ddba3e2c",
+        "contentDigest": "6c29bc69ce76fc404c361ad7996ecfb0",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
-      "resolve": "C:/Users/Killian/repo/gatsby-strapi/content",
+      "resolve": "/Users/lucas/repo/gatsby-strapi/content",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "2398f0b4d6d978734defeec5b0971ac6",
+      "version": "ce7249b97a674170e5c96af572d353a8",
       "pluginOptions": {
         "plugins": []
       },
@@ -993,7 +976,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "C:/Users/Killian/repo/gatsby-strapi/content",
+      "pluginFilepath": "/Users/lucas/repo/gatsby-strapi/content",
       "packageJson": {
         "name": "gatsby-starter-default",
         "description": "Gatsby default starter",
@@ -1071,6 +1054,10 @@
           {
             "name": "react-native-elements",
             "version": "^0.19.1"
+          },
+          {
+            "name": "react-redux",
+            "version": "^6.0.0"
           }
         ],
         "devDependencies": [
@@ -1086,19 +1073,19 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "33da95df2264743945f903c72ffd1703",
+        "contentDigest": "9de612ec045f73ee72f7547de62f7529",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "7a026fec-9f90-58f6-8099-57008283cb7e": {
-      "resolve": "C:/Users/Killian/repo/gatsby-strapi/content/node_modules/gatsby-plugin-page-creator",
-      "id": "7a026fec-9f90-58f6-8099-57008283cb7e",
+    "3bfae263-0cbf-5073-b93d-af32934dbe36": {
+      "resolve": "/Users/lucas/repo/gatsby-strapi/content/node_modules/gatsby-plugin-page-creator",
+      "id": "3bfae263-0cbf-5073-b93d-af32934dbe36",
       "name": "gatsby-plugin-page-creator",
-      "version": "2.0.5",
+      "version": "2.0.4",
       "pluginOptions": {
         "plugins": [],
-        "path": "C:/Users/Killian/repo/gatsby-strapi/content/src/pages",
+        "path": "/Users/lucas/repo/gatsby-strapi/content/src/pages",
         "pathCheck": false
       },
       "nodeAPIs": [
@@ -1106,17 +1093,20 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "C:/Users/Killian/repo/gatsby-strapi/content/node_modules/gatsby-plugin-page-creator",
+      "pluginFilepath": "/Users/lucas/repo/gatsby-strapi/content/node_modules/gatsby-plugin-page-creator",
       "packageJson": {
         "name": "gatsby-plugin-page-creator",
         "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
-        "version": "2.0.5",
+        "version": "2.0.4",
         "main": "index.js",
         "keywords": [
           "gatsby",
           "gatsby-plugin"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -1167,7 +1157,7 @@
           },
           {
             "name": "babel-preset-gatsby-package",
-            "version": "^0.1.3"
+            "version": "^0.1.2"
           },
           {
             "name": "cross-env",
@@ -1186,7 +1176,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "0903b61c4fa1184cbc47d2d523f984e1",
+        "contentDigest": "54198b03cb1535d7d1b70c04ae7dc068",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1201,213 +1191,187 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-12-28T12:33:41.106Z",
+      "buildTime": "2018-12-30T22:40:39.757Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "12c0ab011822a58877cd822bd7fdb6ae",
+        "contentDigest": "c1172c7916874300bbead52dff997a0b",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
     },
-    "19d7dd7a-04d6-531c-82d0-de85bef9a96d": {
-      "id": "19d7dd7a-04d6-531c-82d0-de85bef9a96d",
+    "69fdb24c-1173-5c0e-add2-f2bade54a8b0": {
+      "id": "69fdb24c-1173-5c0e-add2-f2bade54a8b0",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "273719529431969098725c60891e9241",
+        "contentDigest": "c12b4b8c2a50175a390c6a7115080851",
         "type": "Directory",
-        "description": "Directory \"src\\images\"",
+        "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "images",
-      "absolutePath": "C:/Users/Killian/repo/gatsby-strapi/content/src/images",
+      "absolutePath": "/Users/lucas/repo/gatsby-strapi/content/src/images",
       "relativePath": "",
       "extension": "",
-      "size": 0,
-      "prettySize": "0 B",
-      "modifiedTime": "2018-12-27T13:13:13.209Z",
-      "accessTime": "2018-12-27T13:13:13.209Z",
-      "changeTime": "2018-12-27T13:13:13.209Z",
-      "birthTime": "2018-12-27T13:13:13.207Z",
-      "root": "C:/",
-      "dir": "C:/Users/Killian/repo/gatsby-strapi/content/src",
+      "size": 136,
+      "prettySize": "136 B",
+      "modifiedTime": "2018-12-27T23:53:12.000Z",
+      "accessTime": "2018-12-30T22:42:09.000Z",
+      "changeTime": "2018-12-27T23:53:12.000Z",
+      "birthTime": "2018-12-27T23:53:12.000Z",
+      "root": "/",
+      "dir": "/Users/lucas/repo/gatsby-strapi/content/src",
       "base": "images",
       "ext": "",
       "name": "images",
       "relativeDirectory": "..",
-      "dev": 3267027805,
-      "mode": 16822,
-      "nlink": 1,
-      "uid": 0,
-      "gid": 0,
+      "dev": 16777218,
+      "mode": 16877,
+      "nlink": 4,
+      "uid": 501,
+      "gid": 20,
       "rdev": 0,
-      "ino": 1125899908391089,
-      "atimeMs": 1545916393209.0132,
-      "mtimeMs": 1545916393209.0132,
-      "ctimeMs": 1545916393209.0132,
-      "birthtimeMs": 1545916393207.0166,
-      "atime": "2018-12-27T13:13:13.209Z",
-      "mtime": "2018-12-27T13:13:13.209Z",
-      "ctime": "2018-12-27T13:13:13.209Z",
-      "birthtime": "2018-12-27T13:13:13.207Z"
+      "blksize": 4096,
+      "ino": 16948544,
+      "blocks": 0,
+      "atimeMs": 1546209729000,
+      "mtimeMs": 1545954792000,
+      "ctimeMs": 1545954792000,
+      "birthtimeMs": 1545954792000,
+      "atime": "2018-12-30T22:42:09.000Z",
+      "mtime": "2018-12-27T23:53:12.000Z",
+      "ctime": "2018-12-27T23:53:12.000Z",
+      "birthtime": "2018-12-27T23:53:12.000Z"
     },
-    "cf720c86-d5b4-5aa4-921d-01927c585762": {
-      "id": "cf720c86-d5b4-5aa4-921d-01927c585762",
+    "334fb21f-2f1e-5a79-9923-8df8d2326981": {
+      "id": "334fb21f-2f1e-5a79-9923-8df8d2326981",
       "children": [
-        "c225af84-4aa4-54cb-8d8a-88dd3df6219f"
+        "5545ba20-5b38-5eb7-9932-dca95c3b9cfc"
       ],
       "parent": "___SOURCE___",
       "internal": {
         "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
         "type": "File",
         "mediaType": "image/png",
-        "description": "File \"src\\images\\gatsby-icon.png\"",
+        "description": "File \"src/images/gatsby-icon.png\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "images",
-      "absolutePath": "C:/Users/Killian/repo/gatsby-strapi/content/src/images/gatsby-icon.png",
+      "absolutePath": "/Users/lucas/repo/gatsby-strapi/content/src/images/gatsby-icon.png",
       "relativePath": "gatsby-icon.png",
       "extension": "png",
       "size": 21212,
       "prettySize": "21.2 kB",
-      "modifiedTime": "2018-12-27T13:13:13.209Z",
-      "accessTime": "2018-12-27T13:13:13.209Z",
-      "changeTime": "2018-12-27T13:13:13.209Z",
-      "birthTime": "2018-12-27T13:13:13.209Z",
-      "root": "C:/",
-      "dir": "C:/Users/Killian/repo/gatsby-strapi/content/src/images",
+      "modifiedTime": "2018-12-27T23:53:12.000Z",
+      "accessTime": "2018-12-30T21:15:52.000Z",
+      "changeTime": "2018-12-27T23:53:12.000Z",
+      "birthTime": "2018-12-27T23:53:12.000Z",
+      "root": "/",
+      "dir": "/Users/lucas/repo/gatsby-strapi/content/src/images",
       "base": "gatsby-icon.png",
       "ext": ".png",
       "name": "gatsby-icon",
       "relativeDirectory": "",
-      "dev": 3267027805,
-      "mode": 33206,
+      "dev": 16777218,
+      "mode": 33188,
       "nlink": 1,
-      "uid": 0,
-      "gid": 0,
+      "uid": 501,
+      "gid": 20,
       "rdev": 0,
-      "ino": 1125899908391091,
-      "atimeMs": 1545916393209.0132,
-      "mtimeMs": 1545916393209.0132,
-      "ctimeMs": 1545916393209.0132,
-      "birthtimeMs": 1545916393209.0132,
-      "atime": "2018-12-27T13:13:13.209Z",
-      "mtime": "2018-12-27T13:13:13.209Z",
-      "ctime": "2018-12-27T13:13:13.209Z",
-      "birthtime": "2018-12-27T13:13:13.209Z"
+      "blksize": 4096,
+      "ino": 16948546,
+      "blocks": 48,
+      "atimeMs": 1546204552000,
+      "mtimeMs": 1545954792000,
+      "ctimeMs": 1545954792000,
+      "birthtimeMs": 1545954792000,
+      "atime": "2018-12-30T21:15:52.000Z",
+      "mtime": "2018-12-27T23:53:12.000Z",
+      "ctime": "2018-12-27T23:53:12.000Z",
+      "birthtime": "2018-12-27T23:53:12.000Z"
     },
-    "c225af84-4aa4-54cb-8d8a-88dd3df6219f": {
-      "id": "c225af84-4aa4-54cb-8d8a-88dd3df6219f",
+    "5545ba20-5b38-5eb7-9932-dca95c3b9cfc": {
+      "id": "5545ba20-5b38-5eb7-9932-dca95c3b9cfc",
       "children": [],
-      "parent": "cf720c86-d5b4-5aa4-921d-01927c585762",
+      "parent": "334fb21f-2f1e-5a79-9923-8df8d2326981",
       "internal": {
         "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "38337ce3-ff2b-5cfc-bb90-6547f1b1c50e": {
-      "id": "38337ce3-ff2b-5cfc-bb90-6547f1b1c50e",
+    "99b38f91-38f0-58b5-a4fd-ae7cba4c330d": {
+      "id": "99b38f91-38f0-58b5-a4fd-ae7cba4c330d",
       "children": [
-        "8f4decc1-24ce-5ed4-b456-db23f9a71398"
+        "97124586-ee1e-5add-af1c-c0023a3c4e9d"
       ],
       "parent": "___SOURCE___",
       "internal": {
         "contentDigest": "6d91c86c0fde632ba4cd01062fd9ccfa",
         "type": "File",
         "mediaType": "image/png",
-        "description": "File \"src\\images\\gatsby-astronaut.png\"",
+        "description": "File \"src/images/gatsby-astronaut.png\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "images",
-      "absolutePath": "C:/Users/Killian/repo/gatsby-strapi/content/src/images/gatsby-astronaut.png",
+      "absolutePath": "/Users/lucas/repo/gatsby-strapi/content/src/images/gatsby-astronaut.png",
       "relativePath": "gatsby-astronaut.png",
       "extension": "png",
       "size": 167273,
       "prettySize": "167 kB",
-      "modifiedTime": "2018-12-27T13:13:13.208Z",
-      "accessTime": "2018-12-27T13:13:13.208Z",
-      "changeTime": "2018-12-27T13:13:13.208Z",
-      "birthTime": "2018-12-27T13:13:13.208Z",
-      "root": "C:/",
-      "dir": "C:/Users/Killian/repo/gatsby-strapi/content/src/images",
+      "modifiedTime": "2018-12-27T23:53:12.000Z",
+      "accessTime": "2018-12-30T22:34:34.000Z",
+      "changeTime": "2018-12-27T23:53:12.000Z",
+      "birthTime": "2018-12-27T23:53:12.000Z",
+      "root": "/",
+      "dir": "/Users/lucas/repo/gatsby-strapi/content/src/images",
       "base": "gatsby-astronaut.png",
       "ext": ".png",
       "name": "gatsby-astronaut",
       "relativeDirectory": "",
-      "dev": 3267027805,
-      "mode": 33206,
+      "dev": 16777218,
+      "mode": 33188,
       "nlink": 1,
-      "uid": 0,
-      "gid": 0,
+      "uid": 501,
+      "gid": 20,
       "rdev": 0,
-      "ino": 1125899908391090,
-      "atimeMs": 1545916393208.015,
-      "mtimeMs": 1545916393208.015,
-      "ctimeMs": 1545916393208.015,
-      "birthtimeMs": 1545916393208.015,
-      "atime": "2018-12-27T13:13:13.208Z",
-      "mtime": "2018-12-27T13:13:13.208Z",
-      "ctime": "2018-12-27T13:13:13.208Z",
-      "birthtime": "2018-12-27T13:13:13.208Z"
+      "blksize": 4096,
+      "ino": 16948545,
+      "blocks": 328,
+      "atimeMs": 1546209274000,
+      "mtimeMs": 1545954792000,
+      "ctimeMs": 1545954792000,
+      "birthtimeMs": 1545954792000,
+      "atime": "2018-12-30T22:34:34.000Z",
+      "mtime": "2018-12-27T23:53:12.000Z",
+      "ctime": "2018-12-27T23:53:12.000Z",
+      "birthtime": "2018-12-27T23:53:12.000Z"
     },
-    "8f4decc1-24ce-5ed4-b456-db23f9a71398": {
-      "id": "8f4decc1-24ce-5ed4-b456-db23f9a71398",
+    "97124586-ee1e-5add-af1c-c0023a3c4e9d": {
+      "id": "97124586-ee1e-5add-af1c-c0023a3c4e9d",
       "children": [],
-      "parent": "38337ce3-ff2b-5cfc-bb90-6547f1b1c50e",
+      "parent": "99b38f91-38f0-58b5-a4fd-ae7cba4c330d",
       "internal": {
         "contentDigest": "6d91c86c0fde632ba4cd01062fd9ccfa",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "5c1ba4138c1a7740f0c04a03": {
-      "title": "Premier article",
-      "content": "Lorem ipsum",
-      "date_create": "2018-12-20T23:00:00.000Z",
-      "createdAt": "2018-12-20T14:15:47.676Z",
-      "updatedAt": "2018-12-21T15:22:23.197Z",
-      "strapiId": "5c1ba4138c1a7740f0c04a03",
-      "id": "5c1ba4138c1a7740f0c04a03",
+    "5c2934df3acd5c102f49d3fd": {
+      "title": "ok google",
+      "content": "dad dzzad",
+      "date_create": "2018-12-04T23:00:00.000Z",
+      "createdAt": "2018-12-30T21:13:03.267Z",
+      "updatedAt": "2018-12-30T21:13:04.153Z",
+      "strapiId": "5c2934df3acd5c102f49d3fd",
+      "id": "5c2934df3acd5c102f49d3fd",
       "parent": "__SOURCE__",
       "children": [],
       "internal": {
         "type": "StrapiArticle",
-        "contentDigest": "2d169bb1c8c85ce01b28c6f4202a5dce",
-        "owner": "gatsby-source-strapi"
-      }
-    },
-    "5c1bc243877b520674b46bf3": {
-      "title": "Second Article ",
-      "content": "lorem ipsum blabalba",
-      "date_create": "2018-12-21T23:00:00.000Z",
-      "createdAt": "2018-12-20T16:24:35.017Z",
-      "updatedAt": "2018-12-21T10:29:58.020Z",
-      "strapiId": "5c1bc243877b520674b46bf3",
-      "id": "5c1bc243877b520674b46bf3",
-      "parent": "__SOURCE__",
-      "children": [],
-      "internal": {
-        "type": "StrapiArticle",
-        "contentDigest": "30049312b872bb5f0d604d1eeb12804c",
-        "owner": "gatsby-source-strapi"
-      }
-    },
-    "5c1d0a34a75428224cccdf49": {
-      "title": "Troisieme Article",
-      "content": "blaok cazodk azijzaoic azdjiazod ",
-      "date_create": "2018-12-20T13:00:00.000Z",
-      "createdAt": "2018-12-21T15:43:48.190Z",
-      "updatedAt": "2018-12-21T15:43:48.195Z",
-      "strapiId": "5c1d0a34a75428224cccdf49",
-      "id": "5c1d0a34a75428224cccdf49",
-      "parent": "__SOURCE__",
-      "children": [],
-      "internal": {
-        "type": "StrapiArticle",
-        "contentDigest": "49b78b9d8ba8f6b6ef0ff3340b4c3341",
+        "contentDigest": "fb5cabad39feb39181c6a0b53a5563ce",
         "owner": "gatsby-source-strapi"
       }
     },
@@ -1415,19 +1379,19 @@
       "jsonName": "404-22d",
       "internalComponentName": "Component404",
       "path": "/404/",
-      "component": "C:/Users/Killian/repo/gatsby-strapi/content/src/pages/404.js",
+      "component": "/Users/lucas/repo/gatsby-strapi/content/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
-      "pluginCreator___NODE": "7a026fec-9f90-58f6-8099-57008283cb7e",
-      "pluginCreatorId": "7a026fec-9f90-58f6-8099-57008283cb7e",
-      "componentPath": "C:/Users/Killian/repo/gatsby-strapi/content/src/pages/404.js",
+      "pluginCreator___NODE": "3bfae263-0cbf-5073-b93d-af32934dbe36",
+      "pluginCreatorId": "3bfae263-0cbf-5073-b93d-af32934dbe36",
+      "componentPath": "/Users/lucas/repo/gatsby-strapi/content/src/pages/404.js",
       "id": "SitePage /404/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "e71f7dc4e0e328c6483fba0ed69574d6",
-        "description": "7a026fec-9f90-58f6-8099-57008283cb7e",
+        "contentDigest": "75cddad0224dbb8b300900bc75372e89",
+        "description": "3bfae263-0cbf-5073-b93d-af32934dbe36",
         "owner": "internal-data-bridge"
       }
     },
@@ -1435,19 +1399,19 @@
       "jsonName": "admin-d15",
       "internalComponentName": "ComponentAdmin",
       "path": "/admin/",
-      "component": "C:/Users/Killian/repo/gatsby-strapi/content/src/pages/admin.js",
+      "component": "/Users/lucas/repo/gatsby-strapi/content/src/pages/admin.js",
       "componentChunkName": "component---src-pages-admin-js",
       "context": {},
-      "pluginCreator___NODE": "7a026fec-9f90-58f6-8099-57008283cb7e",
-      "pluginCreatorId": "7a026fec-9f90-58f6-8099-57008283cb7e",
-      "componentPath": "C:/Users/Killian/repo/gatsby-strapi/content/src/pages/admin.js",
+      "pluginCreator___NODE": "3bfae263-0cbf-5073-b93d-af32934dbe36",
+      "pluginCreatorId": "3bfae263-0cbf-5073-b93d-af32934dbe36",
+      "componentPath": "/Users/lucas/repo/gatsby-strapi/content/src/pages/admin.js",
       "id": "SitePage /admin/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "76a592c4c97a85e843b6f2e1fd364212",
-        "description": "7a026fec-9f90-58f6-8099-57008283cb7e",
+        "contentDigest": "cb96f7bf61978649e15107ea9036e3d7",
+        "description": "3bfae263-0cbf-5073-b93d-af32934dbe36",
         "owner": "internal-data-bridge"
       }
     },
@@ -1455,19 +1419,19 @@
       "jsonName": "article-c3a",
       "internalComponentName": "ComponentArticle",
       "path": "/article/",
-      "component": "C:/Users/Killian/repo/gatsby-strapi/content/src/pages/article.js",
+      "component": "/Users/lucas/repo/gatsby-strapi/content/src/pages/article.js",
       "componentChunkName": "component---src-pages-article-js",
       "context": {},
-      "pluginCreator___NODE": "7a026fec-9f90-58f6-8099-57008283cb7e",
-      "pluginCreatorId": "7a026fec-9f90-58f6-8099-57008283cb7e",
-      "componentPath": "C:/Users/Killian/repo/gatsby-strapi/content/src/pages/article.js",
+      "pluginCreator___NODE": "3bfae263-0cbf-5073-b93d-af32934dbe36",
+      "pluginCreatorId": "3bfae263-0cbf-5073-b93d-af32934dbe36",
+      "componentPath": "/Users/lucas/repo/gatsby-strapi/content/src/pages/article.js",
       "id": "SitePage /article/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c4fc7389e892e694e81f8b987308230a",
-        "description": "7a026fec-9f90-58f6-8099-57008283cb7e",
+        "contentDigest": "e92132820610f98ae14c0c31fdcb1569",
+        "description": "3bfae263-0cbf-5073-b93d-af32934dbe36",
         "owner": "internal-data-bridge"
       }
     },
@@ -1475,19 +1439,19 @@
       "jsonName": "articles-18f",
       "internalComponentName": "ComponentArticles",
       "path": "/articles/",
-      "component": "C:/Users/Killian/repo/gatsby-strapi/content/src/pages/articles.js",
+      "component": "/Users/lucas/repo/gatsby-strapi/content/src/pages/articles.js",
       "componentChunkName": "component---src-pages-articles-js",
       "context": {},
-      "pluginCreator___NODE": "7a026fec-9f90-58f6-8099-57008283cb7e",
-      "pluginCreatorId": "7a026fec-9f90-58f6-8099-57008283cb7e",
-      "componentPath": "C:/Users/Killian/repo/gatsby-strapi/content/src/pages/articles.js",
+      "pluginCreator___NODE": "3bfae263-0cbf-5073-b93d-af32934dbe36",
+      "pluginCreatorId": "3bfae263-0cbf-5073-b93d-af32934dbe36",
+      "componentPath": "/Users/lucas/repo/gatsby-strapi/content/src/pages/articles.js",
       "id": "SitePage /articles/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "065eb8371f7967116a77c1105609a8c7",
-        "description": "7a026fec-9f90-58f6-8099-57008283cb7e",
+        "contentDigest": "6a908b42a3a3594dbcaf520810717c37",
+        "description": "3bfae263-0cbf-5073-b93d-af32934dbe36",
         "owner": "internal-data-bridge"
       }
     },
@@ -1495,19 +1459,19 @@
       "jsonName": "connect-725",
       "internalComponentName": "ComponentConnect",
       "path": "/connect/",
-      "component": "C:/Users/Killian/repo/gatsby-strapi/content/src/pages/connect.js",
+      "component": "/Users/lucas/repo/gatsby-strapi/content/src/pages/connect.js",
       "componentChunkName": "component---src-pages-connect-js",
       "context": {},
-      "pluginCreator___NODE": "7a026fec-9f90-58f6-8099-57008283cb7e",
-      "pluginCreatorId": "7a026fec-9f90-58f6-8099-57008283cb7e",
-      "componentPath": "C:/Users/Killian/repo/gatsby-strapi/content/src/pages/connect.js",
+      "pluginCreator___NODE": "3bfae263-0cbf-5073-b93d-af32934dbe36",
+      "pluginCreatorId": "3bfae263-0cbf-5073-b93d-af32934dbe36",
+      "componentPath": "/Users/lucas/repo/gatsby-strapi/content/src/pages/connect.js",
       "id": "SitePage /connect/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "04488810e17c28390e28f08174152a6b",
-        "description": "7a026fec-9f90-58f6-8099-57008283cb7e",
+        "contentDigest": "24e34fbc24eec69b82f62470604c2379",
+        "description": "3bfae263-0cbf-5073-b93d-af32934dbe36",
         "owner": "internal-data-bridge"
       }
     },
@@ -1515,19 +1479,19 @@
       "jsonName": "event-b93",
       "internalComponentName": "ComponentEvent",
       "path": "/event/",
-      "component": "C:/Users/Killian/repo/gatsby-strapi/content/src/pages/event.js",
+      "component": "/Users/lucas/repo/gatsby-strapi/content/src/pages/event.js",
       "componentChunkName": "component---src-pages-event-js",
       "context": {},
-      "pluginCreator___NODE": "7a026fec-9f90-58f6-8099-57008283cb7e",
-      "pluginCreatorId": "7a026fec-9f90-58f6-8099-57008283cb7e",
-      "componentPath": "C:/Users/Killian/repo/gatsby-strapi/content/src/pages/event.js",
+      "pluginCreator___NODE": "3bfae263-0cbf-5073-b93d-af32934dbe36",
+      "pluginCreatorId": "3bfae263-0cbf-5073-b93d-af32934dbe36",
+      "componentPath": "/Users/lucas/repo/gatsby-strapi/content/src/pages/event.js",
       "id": "SitePage /event/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "1fffb86f34e539aa66a4aa69e34b1c0f",
-        "description": "7a026fec-9f90-58f6-8099-57008283cb7e",
+        "contentDigest": "2eafd772757ecf8097c890f7c21242f7",
+        "description": "3bfae263-0cbf-5073-b93d-af32934dbe36",
         "owner": "internal-data-bridge"
       }
     },
@@ -1535,19 +1499,19 @@
       "jsonName": "index",
       "internalComponentName": "ComponentIndex",
       "path": "/",
-      "component": "C:/Users/Killian/repo/gatsby-strapi/content/src/pages/index.js",
+      "component": "/Users/lucas/repo/gatsby-strapi/content/src/pages/index.js",
       "componentChunkName": "component---src-pages-index-js",
       "context": {},
-      "pluginCreator___NODE": "7a026fec-9f90-58f6-8099-57008283cb7e",
-      "pluginCreatorId": "7a026fec-9f90-58f6-8099-57008283cb7e",
-      "componentPath": "C:/Users/Killian/repo/gatsby-strapi/content/src/pages/index.js",
+      "pluginCreator___NODE": "3bfae263-0cbf-5073-b93d-af32934dbe36",
+      "pluginCreatorId": "3bfae263-0cbf-5073-b93d-af32934dbe36",
+      "componentPath": "/Users/lucas/repo/gatsby-strapi/content/src/pages/index.js",
       "id": "SitePage /",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "5fde6115b3ab444f87554214c00ac96a",
-        "description": "7a026fec-9f90-58f6-8099-57008283cb7e",
+        "contentDigest": "b7e215b0793a7b853e67d7214ce2cc3b",
+        "description": "3bfae263-0cbf-5073-b93d-af32934dbe36",
         "owner": "internal-data-bridge"
       }
     },
@@ -1555,18 +1519,18 @@
       "jsonName": "404-html-516",
       "internalComponentName": "Component404Html",
       "path": "/404.html",
-      "component": "C:/Users/Killian/repo/gatsby-strapi/content/src/pages/404.js",
+      "component": "/Users/lucas/repo/gatsby-strapi/content/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
       "pluginCreator___NODE": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
       "pluginCreatorId": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
-      "componentPath": "C:/Users/Killian/repo/gatsby-strapi/content/src/pages/404.js",
+      "componentPath": "/Users/lucas/repo/gatsby-strapi/content/src/pages/404.js",
       "id": "SitePage /404.html",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "95ac9b6c5144ea36d7b56fd97d217b3a",
+        "contentDigest": "13a977993ca8c09b7f5a212e735c90e1",
         "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
         "owner": "internal-data-bridge"
       }
@@ -1574,7 +1538,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "db1af6759bf3b7cdd41260178edee1d1"
+    "PLUGINS_HASH": "5ebb82fd6bd04ac04132d201819b35f5"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -1582,10 +1546,10 @@
         "sq--src-components-layout-js",
         "sq--src-components-seo-js"
       ],
-      "38337ce3-ff2b-5cfc-bb90-6547f1b1c50e": [
+      "99b38f91-38f0-58b5-a4fd-ae7cba4c330d": [
         "sq--src-components-image-js"
       ],
-      "8f4decc1-24ce-5ed4-b456-db23f9a71398": [
+      "97124586-ee1e-5add-af1c-c0023a3c4e9d": [
         "sq--src-components-image-js"
       ]
     },
@@ -1613,59 +1577,59 @@
     "admin-d15": "917/path---admin-d-15-2aa-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
-    "C:/Users/Killian/repo/gatsby-strapi/content/.cache/dev-404-page.js": {
+    "/Users/lucas/repo/gatsby-strapi/content/.cache/dev-404-page.js": {
       "query": "",
-      "componentPath": "C:/Users/Killian/repo/gatsby-strapi/content/.cache/dev-404-page.js"
+      "componentPath": "/Users/lucas/repo/gatsby-strapi/content/.cache/dev-404-page.js"
     },
-    "C:/Users/Killian/repo/gatsby-strapi/content/src/pages/404.js": {
+    "/Users/lucas/repo/gatsby-strapi/content/src/pages/404.js": {
       "query": "",
-      "componentPath": "C:/Users/Killian/repo/gatsby-strapi/content/src/pages/404.js"
+      "componentPath": "/Users/lucas/repo/gatsby-strapi/content/src/pages/404.js"
     },
-    "C:/Users/Killian/repo/gatsby-strapi/content/src/pages/admin.js": {
+    "/Users/lucas/repo/gatsby-strapi/content/src/pages/admin.js": {
       "query": "",
-      "componentPath": "C:/Users/Killian/repo/gatsby-strapi/content/src/pages/admin.js"
+      "componentPath": "/Users/lucas/repo/gatsby-strapi/content/src/pages/admin.js"
     },
-    "C:/Users/Killian/repo/gatsby-strapi/content/src/pages/article.js": {
+    "/Users/lucas/repo/gatsby-strapi/content/src/pages/article.js": {
       "query": "",
-      "componentPath": "C:/Users/Killian/repo/gatsby-strapi/content/src/pages/article.js"
+      "componentPath": "/Users/lucas/repo/gatsby-strapi/content/src/pages/article.js"
     },
-    "C:/Users/Killian/repo/gatsby-strapi/content/src/pages/articles.js": {
+    "/Users/lucas/repo/gatsby-strapi/content/src/pages/articles.js": {
       "query": "",
-      "componentPath": "C:/Users/Killian/repo/gatsby-strapi/content/src/pages/articles.js"
+      "componentPath": "/Users/lucas/repo/gatsby-strapi/content/src/pages/articles.js"
     },
-    "C:/Users/Killian/repo/gatsby-strapi/content/src/pages/connect.js": {
+    "/Users/lucas/repo/gatsby-strapi/content/src/pages/connect.js": {
       "query": "",
-      "componentPath": "C:/Users/Killian/repo/gatsby-strapi/content/src/pages/connect.js"
+      "componentPath": "/Users/lucas/repo/gatsby-strapi/content/src/pages/connect.js"
     },
-    "C:/Users/Killian/repo/gatsby-strapi/content/src/pages/event.js": {
+    "/Users/lucas/repo/gatsby-strapi/content/src/pages/event.js": {
       "query": "",
-      "componentPath": "C:/Users/Killian/repo/gatsby-strapi/content/src/pages/event.js"
+      "componentPath": "/Users/lucas/repo/gatsby-strapi/content/src/pages/event.js"
     },
-    "C:/Users/Killian/repo/gatsby-strapi/content/src/pages/index.js": {
+    "/Users/lucas/repo/gatsby-strapi/content/src/pages/index.js": {
       "query": "",
-      "componentPath": "C:/Users/Killian/repo/gatsby-strapi/content/src/pages/index.js"
+      "componentPath": "/Users/lucas/repo/gatsby-strapi/content/src/pages/index.js"
     }
   },
   "staticQueryComponents": {
     "sq--src-components-articles-js": {
       "name": "ArticlesQuery",
-      "componentPath": "C:/Users/Killian/repo/gatsby-strapi/content/src/components/articles.js",
+      "componentPath": "/Users/lucas/repo/gatsby-strapi/content/src/components/articles.js",
       "id": "sq--src-components-articles-js",
       "jsonName": "sq--src-components-articles-js",
       "query": "query ArticlesQuery {\n  allStrapiArticle {\n    edges {\n      node {\n        id\n        title\n        content\n      }\n    }\n  }\n}\n",
       "hash": 3790997570
     },
     "sq--src-components-image-js": {
-      "name": "cUsersKillianRepoGatsbyStrapiContentSrcComponentsImageJs2011440971",
-      "componentPath": "C:/Users/Killian/repo/gatsby-strapi/content/src/components/image.js",
+      "name": "usersLucasRepoGatsbyStrapiContentSrcComponentsImageJs2011440971",
+      "componentPath": "/Users/lucas/repo/gatsby-strapi/content/src/components/image.js",
       "id": "sq--src-components-image-js",
       "jsonName": "sq--src-components-image-js",
-      "query": "query cUsersKillianRepoGatsbyStrapiContentSrcComponentsImageJs2011440971 {\n  placeholderImage: file(relativePath: {eq: \"gatsby-astronaut.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 300) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "query": "query usersLucasRepoGatsbyStrapiContentSrcComponentsImageJs2011440971 {\n  placeholderImage: file(relativePath: {eq: \"gatsby-astronaut.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 300) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
       "hash": 2011440971
     },
     "sq--src-components-layout-js": {
       "name": "SiteTitleQuery",
-      "componentPath": "C:/Users/Killian/repo/gatsby-strapi/content/src/components/layout.js",
+      "componentPath": "/Users/lucas/repo/gatsby-strapi/content/src/components/layout.js",
       "id": "sq--src-components-layout-js",
       "jsonName": "sq--src-components-layout-js",
       "query": "query SiteTitleQuery {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
@@ -1673,7 +1637,7 @@
     },
     "sq--src-components-seo-js": {
       "name": "DefaultSEOQuery",
-      "componentPath": "C:/Users/Killian/repo/gatsby-strapi/content/src/components/seo.js",
+      "componentPath": "/Users/lucas/repo/gatsby-strapi/content/src/components/seo.js",
       "id": "sq--src-components-seo-js",
       "jsonName": "sq--src-components-seo-js",
       "query": "query DefaultSEOQuery {\n  site {\n    siteMetadata {\n      title\n      description\n      author\n    }\n  }\n}\n",

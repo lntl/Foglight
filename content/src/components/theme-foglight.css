@@ -1,0 +1,96 @@
+/* 
+  Author : Lucas Natale
+  v1.0 | 30-12-2018
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+input:focus, select:focus {
+	outline:none;
+}
+body {
+  line-height: 1;
+  font-family: 'Roboto', sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+li {
+	list-style-type: none;
+}
+a {
+  display: block;
+  color: initial;
+}
+a:hover{
+  text-decoration: none;
+}
+select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	width: 100%;
+	padding: 5px;
+	font-size: 14px;
+	border-radius: 0;
+	background: none;
+}
+select::-ms-expand {
+	display: none;
+}
+input[type="submit"] {
+	width: 100%;
+}
+input{
+	padding: 5px;
+	border: 1px solid #999999;
+	font-size: 14px;
+	width: calc(100% - 12px);
+}
+.foglight-form{
+
+}
+.foglight-form select {
+	border: 0;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 15px;
+}
+.foglight-form h2 {
+	text-align: center;
+	font-weight: lighter;
+	font-size: 24px;
+	padding: 10px 0px;
+}
+.foglight-form input[type="submit"] {
+	cursor: pointer;
+	border: 1px solid #cccccc;
+	padding: 10px;
+}
+.foglight-form input {
+	border: 0;
+	border-bottom: 1px solid #cccccc;
+	margin-bottom: 15px;
+}
