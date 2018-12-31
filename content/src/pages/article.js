@@ -46,7 +46,6 @@ class Article extends Component {
           <div className="container">
             <h1>Article</h1>
             <ul>
-              {console.log(this.state)}
               {this.state.items.map((item)=>
                 <li key={item.id}>{item.title}
                 <span className="date-time">

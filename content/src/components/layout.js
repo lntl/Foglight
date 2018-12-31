@@ -19,7 +19,6 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-
         <div>
           <Header siteTitle="Home" />
           {children}

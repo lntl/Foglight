@@ -58,6 +58,6 @@
     "blackList": []
   },
   "xssProtection": {
-    "enabled": true
+    "enabled": false
   }
 }

@@ -1,4 +1,4 @@
-/* 
+/*
   Author : Lucas Natale
   v1.0 | 30-12-2018
   License: none (public domain)
@@ -32,8 +32,8 @@ input:focus, select:focus {
 	outline:none;
 }
 body {
-  line-height: 1;
   font-family: 'Roboto', sans-serif;
+  line-height: 1;
 }
 ol, ul {
 	list-style: none;
@@ -45,8 +45,9 @@ a {
   display: block;
   color: initial;
 }
-a:hover{
-  text-decoration: none;
+.header-link li a:hover{
+	text-decoration: none;
+	color: #4e876a;
 }
 select {
 	-webkit-appearance: none;
@@ -67,30 +68,81 @@ input[type="submit"] {
 input{
 	padding: 5px;
 	border: 1px solid #999999;
-	font-size: 14px;
+	font-size: 12px;
 	width: calc(100% - 12px);
 }
-.foglight-form{
-
-}
+/*
+FORMULAIRE
+*/
 .foglight-form select {
 	border: 0;
-	border-bottom: 1px solid #ccc;
+	border-bottom: 1px solid #4e876a;
 	margin-bottom: 15px;
 }
 .foglight-form h2 {
 	text-align: center;
-	font-weight: lighter;
-	font-size: 24px;
+	font-weight: unset;
+	text-transform: uppercase;
+	font-size: 22px;
 	padding: 10px 0px;
+	color: #4e876a;
+	margin-bottom: 20px;
+	position: relative;
 }
-.foglight-form input[type="submit"] {
-	cursor: pointer;
-	border: 1px solid #cccccc;
-	padding: 10px;
+.foglight-form h2:before{
+	width: 50px;
+	height: 5px;
+	position: absolute;
+	content: '';
+	background: #4e876a;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
 }
 .foglight-form input {
 	border: 0;
-	border-bottom: 1px solid #cccccc;
+	border-bottom: 1px solid #4e876a;
 	margin-bottom: 15px;
+}
+.foglight-form.log {
+	width: 250px;
+	margin: 0 auto;
+	padding: 50px;
+	box-shadow: 0px 0px 3px rgba(000,000,000,0.2);
+	margin-top: 50px;
+}
+/*
+BOUTONS / SELECT / LABEL
+*/
+input[type="submit"], button, .btn-std{
+	cursor: pointer;
+	border: 1px solid #4e876a;
+	padding: 10px;
+	background: #4e876a;
+	text-transform: uppercase;
+	color: #ffffff;
+	transition: 0.2s;
+}
+input[type="submit"]:hover, button:hover, .btn-std:hover{
+	background: #ffffff;
+	color: #4e876a;
+}
+/*
+CHARTS
+*/
+.content-site h1 {
+	padding-top: 30px;
+	font-size: 30px;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 20px;
+	color: #4e876a;
+	padding-bottom: 10px;
+}
+.slider-home {
+	width: 100%;
+	height: 400px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 }

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-let is_active = false;
+
 
 
 function UserGreeting(props) {
@@ -14,7 +14,9 @@ class AdminPanel extends Component {
     super(props);
     this.state = {
       email:'',
-      password:''
+      password:'',
+      user_datas:[],
+      token:'',
     };
 
     this.handleChange = this.handleChange.bind(this);
@@ -24,7 +26,7 @@ class AdminPanel extends Component {
   handleChange(e) {
     this.setState({[e.target.name]: e.target.value});
   }
-  
+
   handleSubmit(e) {
     fetch('http://localhost:1337/auth/local', {
       method: 'POST',
@@ -40,10 +42,10 @@ class AdminPanel extends Component {
     }).then((response) => response.json())
     .then((responseJson) => {
       if(typeof responseJson.error === "undefined"){
-        sessionStorage.setItem('user_datas', JSON.stringify(responseJson));
-        is_active=true;
-        window.location="/admin";
-      } 
+        sessionStorage.setItem('user_datas', JSON.stringify(responseJson.user));
+        sessionStorage.setItem('token', JSON.stringify(responseJson.jwt));
+        this.setState({ token:JSON.stringify(responseJson.jwt), user_datas:JSON.stringify(responseJson.user) });
+      }
     })
     e.preventDefault();
   }
@@ -54,49 +56,45 @@ class AdminPanel extends Component {
   }
 
   componentDidMount() {
-    var user_datas = sessionStorage.getItem('user_datas');
-    if(user_datas!=null){
-      user_datas = JSON.parse(user_datas);
-      fetch('http://localhost:1337/users', {
+    var token = sessionStorage.getItem('token');
+    if(token){
+      this.setState({ token:token });
+      fetch('http://localhost:1337/admin', {
         method: 'GET',
           headers: {
-            Authorization: `Bearer ${user_datas.jwt}`
+            Authorization: `Bearer ${this.state.jwt}`
         }
-      }).then((response) => response.json())
-      .then((responseJson) => {
-        if(typeof responseJson.error === "undefined"){
-          sessionStorage.setItem('user_datas', JSON.stringify(responseJson));
-          is_active=true;
+      }).then((responseJson) => {
+        if(responseJson.status!=200){
+          sessionStorage.clear();
+          this.setState({ user_datas:'' });
         }
       })
     }
     this.mounted = true;
   }
+
   componentWillUnmount(){
     this.mounted = false;
   }
 
   render() {
-    let user_datas = sessionStorage.getItem('user_datas');
-    var content ="";
-    if (user_datas!=null) {
-      content = <div><p>connecté</p><button onClick={this.logOut}>Déco</button></div>;
-    } else {
-      content = <form onSubmit={this.handleSubmit} className="foglight-form">
-                  <h2>Connexion</h2>
-                  <p>lucas</p>
-                  <p>madmixp75*</p>
-                  <input type="text" onChange={this.handleChange} name="email" value={this.state.email || ''}  placeholder="Enter your email..."/>
-                  <input type="text" onChange={this.handleChange} name="password" value={this.state.password || ''}  placeholder="Enter your password..."/>
-                  <input type="submit"/>
-                </form>;
-    }
-
-    return (
-      <div>
-        {content}
-      </div>
-    );
+    var token = sessionStorage.getItem('token');
+    let user_datas = this.state.user_datas;
+    user_datas = JSON.parse(sessionStorage.getItem('user_datas'));
+    if (token)
+      return (
+        <div>
+          <p>Bonjour {user_datas.username}</p>
+          <button onClick={this.logOut}>Logout</button>
+        </div>);
+      return(
+        <form onSubmit={this.handleSubmit} className="foglight-form log">
+          <h2>Connexion</h2>
+          <input type="text" onChange={this.handleChange} name="email" value={this.state.email || ''}  placeholder="Your name"/>
+          <input type="password" onChange={this.handleChange} name="password" value={this.state.password || ''}  placeholder="Your password"/>
+          <input type="submit"/>
+        </form>);
   }
 }
 

@@ -11,7 +11,7 @@ class SecondPage extends Component {
         <Header siteTitle="Articles"/>
         <div className="content-site">
           <div className="container">
-            <h1>Liste d'articles</h1>
+            <h1>Articles</h1>
             <Articles/>
           </div>
         </div>

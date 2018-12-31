@@ -42,9 +42,8 @@ class Admin extends Component {
         <Header siteTitle="Admin"/>
         <div className="content-site">
           <div className="container">
-            <h1>Admin</h1>
             <AdminPanel/>
-            
+
             {/* <form onSubmit={this.handleSubmit} className="foglight-form">
             <h2>Ajouter un {this.state.typeof}</h2>
               <select name="typeof" onChange={this.handleChange}>
