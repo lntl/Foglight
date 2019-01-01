@@ -7,7 +7,7 @@ const Header = ({ siteTitle }) => (
     <div className="container">
       <h1>
         <Link to="/">
-          Logo
+          FOGLIGHT
         </Link>
       </h1>
       <ul className="header-link">

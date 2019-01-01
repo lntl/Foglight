@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import Header from '../components/header';
 import AdminPanel from '../components/admin';
-import DateFormat from 'dateformat';
-
 
 class Admin extends Component {
 
@@ -17,13 +15,13 @@ class Admin extends Component {
     this.handleSubmit = this.handleSubmit.bind(this);
   }
   handleChange(event) {
-    if(event.target.name!=""){
+    if(event.target.name!==""){
       this.setState({[event.target.name]: event.target.value});
     }
   }
   handleSubmit(event) {
 
-    if(event.target.name!=""){
+    if(event.target.name!==""){
       this.setState({[event.target.name]: event.target.value});
     }
     console.log(this.state)

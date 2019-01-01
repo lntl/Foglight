@@ -32,6 +32,7 @@ var _loader = _interopRequireWildcard(require("./loader"));
 
 var _ensureResources = _interopRequireDefault(require("./ensure-resources"));
 
+window.___emitter = _emitter.default;
 window.asyncRequires = _asyncRequires.default;
 window.___emitter = _emitter.default;
 window.___loader = _loader.default;

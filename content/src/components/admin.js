@@ -1,13 +1,6 @@
 import React, { Component } from 'react';
 
 
-
-
-function UserGreeting(props) {
-  return <h1>Welcome back!</h1>;
-}
-
-
 class AdminPanel extends Component {
 
   constructor(props) {
@@ -65,7 +58,7 @@ class AdminPanel extends Component {
             Authorization: `Bearer ${this.state.jwt}`
         }
       }).then((responseJson) => {
-        if(responseJson.status!=200){
+        if(responseJson.status!==200){
           sessionStorage.clear();
           this.setState({ user_datas:'' });
         }

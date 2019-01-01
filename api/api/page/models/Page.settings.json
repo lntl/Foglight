@@ -1,8 +1,8 @@
 {
   "connection": "default",
-  "collectionName": "article",
+  "collectionName": "page",
   "info": {
-    "name": "article",
+    "name": "page",
     "description": ""
   },
   "options": {
@@ -17,13 +17,9 @@
       "default": "",
       "type": "text"
     },
-    "date_create": {
-      "default": "",
-      "type": "date"
-    },
     "url_slug": {
       "default": "",
-      "type": "text"
+      "type": "string"
     }
   }
 }
