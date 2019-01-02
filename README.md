@@ -27,13 +27,9 @@ Gatsby | Strapi
     Navigate into your new site’s directory and start it up.
 
     ```sh
-		git clone https://github.com/lntl/gatsby-strapi.git
+		git clone https://github.com/lntl/Foglight.git
 		```
 		Run mongodb like mongod on CLI
-
-		```sh
-		cd my-default-starter/
-		gatsby develop
     ```
 
 1.  **Deploy strapi and install.**
@@ -41,8 +37,13 @@ Gatsby | Strapi
     Navigate into directory of testapi.
 
     ```sh
-		cd /testapi
-		strapi start
+		cd /api
+		npm install
+		----
+		AND
+		----
+		cd ../content
+		npm install
     ```
 <a href="https://strapi.io/documentation/3.x.x/getting-started/quick-start.html#_2-register-the-first-user">Go to documentation to create first user, create first article and verify Roles & Permissions View</a>
 
@@ -51,7 +52,7 @@ Gatsby | Strapi
     Navigate into directory blog and start it up.
 
     ```sh
-		cd /blog
+		cd /content
 		gatsby develop
     ```
 
