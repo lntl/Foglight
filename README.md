@@ -1,5 +1,5 @@
-# gatsby-strapi
-Starter Gatsby | React | Strapi
+# Foglight
+Gatsby | Strapi
 
 <h1 align="center">
   How to install 
