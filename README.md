@@ -1,4 +1,4 @@
-# Foglight
+# Nebula
 Gatsby | Strapi
 
 <h1 align="center">
@@ -27,7 +27,7 @@ Gatsby | Strapi
     Navigate into your new site’s directory and start it up.
 
     ```sh
-		git clone https://github.com/lntl/Foglight.git
+		git clone https://github.com/lntl/nebula.git
 		```
 		Run mongodb like mongod on CLI
     ```
