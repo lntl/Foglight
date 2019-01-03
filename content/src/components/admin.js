@@ -10,6 +10,7 @@ class AdminPanel extends Component {
       password:'',
       user_datas:[],
       token:'',
+      remember_me:false
     };
 
     this.handleChange = this.handleChange.bind(this);
@@ -77,9 +78,9 @@ class AdminPanel extends Component {
     user_datas = JSON.parse(sessionStorage.getItem('user_datas'));
     if (token)
       return (
-        <div>
-          <p>Bonjour {user_datas.username}</p>
-          <button onClick={this.logOut}>Logout</button>
+        <div className="admin-panel">
+            <h1>Bonjour <strong>{user_datas.username}</strong><button onClick={this.logOut} className="logout">Logout</button></h1>
+
         </div>);
       return(
         <form onSubmit={this.handleSubmit} className="foglight-form log">

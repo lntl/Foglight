@@ -122,7 +122,11 @@ input[type="submit"], button, .btn-std{
 	background: #4e876a;
 	text-transform: uppercase;
 	color: #ffffff;
+	text-align: center;
+	margin-top: 20px;
 	transition: 0.2s;
+	font-size: 12px;
+	text-decoration: none;
 }
 input[type="submit"]:hover, button:hover, .btn-std:hover{
 	background: #ffffff;
@@ -145,4 +149,23 @@ CHARTS
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
+}
+.articles h2, .events h2 {
+	font-size: 20px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	position: relative;
+	border-bottom: 1px solid #4e876a;
+}
+.articles p {
+	height: 50px;
+	overflow: hidden;
+	font-size: 12px;
+}
+.article h2 {
+	position: relative;
+}
+.admin-panel .logout {
+	position: absolute;
+	right: 0;
 }

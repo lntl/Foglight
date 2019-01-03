@@ -43,12 +43,16 @@ class EventPage extends Component {
         <div className="content-site">
           <div className="container">
             <h1>Evenements</h1>
-            <ul>
+            <ul class="events">
               {this.state.items.map((item)=>
-                <li key={item.id}>{item.title}
-                <span className="date-time">
-                  {item.create_date = DateFormat(item.create_date)}
-                </span>
+                <li key={item.id}>
+                <h2>
+                  {item.title}
+                  <span className="date-time">
+                    {item.create_date = DateFormat(item.create_date)}
+                  </span>
+                </h2>
+
                 <p>{item.content}</p></li>
               )}
             </ul>

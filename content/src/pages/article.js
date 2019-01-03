@@ -45,15 +45,14 @@ class Article extends Component {
         <div className="content-site">
           <div className="container">
             <h1>Article</h1>
-            <ul>
               {this.state.items.map((item)=>
-                <li key={item.id}>{item.title}
-                <span className="date-time">
-                  {item.create_date = DateFormat(item.create_date)}
-                </span>
-                <p>{item.content}</p></li>
+                <div key={item.id} className="article">
+                <h2>{item.title}<span className="date-time">
+                  {item.date_create = DateFormat(item.date_create)}
+                </span></h2>
+
+                <p>{item.content}</p></div>
               )}
-            </ul>
           </div>
         </div>
       </div>

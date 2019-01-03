@@ -276,10 +276,10 @@ var _default = (pagePath, callback) => {
   if (page.jsonName in dataPaths) {
     const dataPath = `${__PATH_PREFIX__}/static/d/${dataPaths[page.jsonName]}.json`;
     headComponents.push(React.createElement("link", {
+      as: "fetch",
       rel: "preload",
       key: dataPath,
       href: dataPath,
-      as: "fetch",
       crossOrigin: "use-credentials"
     }));
   }
