@@ -15,7 +15,6 @@ class EventPage extends Component {
     };
   }
   componentDidMount() {
-    this.mounted = true;
     fetch("http://localhost:1337/evenements")
     .then(res => res.json())
     .then(
@@ -33,9 +32,6 @@ class EventPage extends Component {
       }
     );
   }
-  componentWillUnmount(){
-    this.mounted = false;
-  }
   render() {
     return (
       <div>
@@ -43,7 +39,7 @@ class EventPage extends Component {
         <div className="content-site">
           <div className="container">
             <h1>Evenements</h1>
-            <ul class="events">
+            <ul className="events">
               {this.state.items.map((item)=>
                 <li key={item.id}>
                 <h2>

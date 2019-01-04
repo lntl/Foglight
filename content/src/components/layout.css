@@ -132,7 +132,26 @@ h1 {
   font-size: 12px;
   bottom: 10px;
 }
-
+.nav-admin{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background: #ccc;
+  padding: 10px;
+  font-size: 14px;
+  height: 100%;
+}
+.nav-admin h2{
+  margin-bottom: 20px;
+}
+.nav-admin .btn-parent {
+  margin: 0;
+  width: 100%;
+  text-align: left;
+  border-bottom: 1px solid;
+  padding: 3px;
+}
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;

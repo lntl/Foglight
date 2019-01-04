@@ -24,13 +24,11 @@ export default () => (
             <h2>
               {document.node.title}
             </h2>
-            <p>
             <TextTruncate
                 line={4}
                 truncateText="…"
                 text={document.node.content}
             />
-            </p>
             <Link className="btn-std" to={"/article?id="+document.node.id}>Voir plus</Link>
           </li>
         ))}

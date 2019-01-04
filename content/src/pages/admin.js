@@ -28,12 +28,6 @@ class Admin extends Component {
     event.preventDefault();
   }
 
-  componentDidMount() {
-    this.mounted = true;
-  }
-  componentWillUnmount(){
-    this.mounted = false;
-  }
   render() {
     return (
       <div>

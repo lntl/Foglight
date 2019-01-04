@@ -17,7 +17,6 @@ class Article extends Component {
   componentDidMount() {
     let uri = document.location.search;
     uri = uri.split('=');
-    this.mounted = true;
     fetch("http://localhost:1337/articles?id="+uri[1])
     .then(res => res.json())
     .then(
@@ -34,9 +33,6 @@ class Article extends Component {
         });
       }
     );
-  }
-  componentWillUnmount(){
-    this.mounted = false;
   }
   render() {
     return (

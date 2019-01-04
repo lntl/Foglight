@@ -4,24 +4,24 @@
       "jsonName": "dev-404-page-5f9",
       "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "C:/Users/Killian/repo/nebula/content/.cache/dev-404-page.js",
+      "component": "/Users/lucas/repo/nebula/content/.cache/dev-404-page.js",
       "componentChunkName": "component---cache-dev-404-page-js",
       "context": {},
       "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
       "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
-      "componentPath": "C:/Users/Killian/repo/nebula/content/.cache/dev-404-page.js",
+      "componentPath": "/Users/lucas/repo/nebula/content/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "37b7dee0ae20268e814bf7b684497987",
+        "contentDigest": "e3dfb33591da0f06c60fd6ce814af0e2",
         "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
         "owner": "internal-data-bridge"
       }
     },
     "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5": {
-      "resolve": "C:/Users/Killian/repo/nebula/content/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "resolve": "/Users/lucas/repo/nebula/content/node_modules/gatsby/dist/internal-plugins/dev-404-page",
       "id": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
       "name": "dev-404-page",
       "version": "1.0.0",
@@ -33,7 +33,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "C:/Users/Killian/repo/nebula/content/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "pluginFilepath": "/Users/lucas/repo/nebula/content/node_modules/gatsby/dist/internal-plugins/dev-404-page",
       "packageJson": {
         "name": "dev-404-page",
         "description": "Internal plugin to add a 404 page in development with helpful information",
@@ -50,13 +50,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "8c1651c32b45e7f3bffc2b01df8595f4",
+        "contentDigest": "62a71e715034ea6d7f23e2e64ffa4d71",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "1fc32581-893a-55e8-8927-bcd667e2b700": {
-      "resolve": "C:/Users/Killian/repo/nebula/content/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "resolve": "/Users/lucas/repo/nebula/content/node_modules/gatsby/dist/internal-plugins/load-babel-config",
       "id": "1fc32581-893a-55e8-8927-bcd667e2b700",
       "name": "load-babel-config",
       "version": "1.0.0",
@@ -68,7 +68,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "C:/Users/Killian/repo/nebula/content/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "pluginFilepath": "/Users/lucas/repo/nebula/content/node_modules/gatsby/dist/internal-plugins/load-babel-config",
       "packageJson": {
         "name": "load-babel-config",
         "description": "Internal plugin that handles loading Babel configs",
@@ -85,13 +85,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "c383ff276796dfd2b05bbb811a29bd56",
+        "contentDigest": "132352a060e5b8e37975b91fe9850e37",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "a5079d69-ba80-53dc-82f9-0f440bd5448c": {
-      "resolve": "C:/Users/Killian/repo/nebula/content/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "resolve": "/Users/lucas/repo/nebula/content/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
       "id": "a5079d69-ba80-53dc-82f9-0f440bd5448c",
       "name": "internal-data-bridge",
       "version": "1.0.0",
@@ -104,7 +104,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "C:/Users/Killian/repo/nebula/content/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "pluginFilepath": "/Users/lucas/repo/nebula/content/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
       "packageJson": {
         "name": "internal-data-bridge",
         "description": "An internal Gatsby plugin which creates data nodes from internal data",
@@ -121,13 +121,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "a866686f079590d11c5f5ac77ee6bfaa",
+        "contentDigest": "c291bacb0bdddeac1c47c5a190b94a56",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "f795702c-a3b8-5a88-88ee-5d06019d44fa": {
-      "resolve": "C:/Users/Killian/repo/nebula/content/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "resolve": "/Users/lucas/repo/nebula/content/node_modules/gatsby/dist/internal-plugins/prod-404",
       "id": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
       "name": "prod-404",
       "version": "1.0.0",
@@ -139,7 +139,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "C:/Users/Killian/repo/nebula/content/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "pluginFilepath": "/Users/lucas/repo/nebula/content/node_modules/gatsby/dist/internal-plugins/prod-404",
       "packageJson": {
         "name": "prod-404",
         "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
@@ -156,13 +156,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "51b2b70c8b9654960d18a2cbd8c75296",
+        "contentDigest": "0e67a4acb5283f02d4f4803c36700037",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "84dad27f-1d44-51fc-ac56-4db2e5222995": {
-      "resolve": "C:/Users/Killian/repo/nebula/content/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "resolve": "/Users/lucas/repo/nebula/content/node_modules/gatsby/dist/internal-plugins/query-runner",
       "id": "84dad27f-1d44-51fc-ac56-4db2e5222995",
       "name": "query-runner",
       "version": "1.0.0",
@@ -174,7 +174,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "C:/Users/Killian/repo/nebula/content/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "pluginFilepath": "/Users/lucas/repo/nebula/content/node_modules/gatsby/dist/internal-plugins/query-runner",
       "packageJson": {
         "name": "query-runner",
         "description": "Internal plugin for running queries",
@@ -191,51 +191,16 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "0fa0edaee8890714b1f3b029e06a101c",
-        "type": "SitePlugin",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "6f4b2fa9-66b5-5205-a03f-140005a2cfe5": {
-      "resolve": "C:/Users/Killian/repo/nebula/content/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
-      "id": "6f4b2fa9-66b5-5205-a03f-140005a2cfe5",
-      "name": "webpack-theme-component-shadowing",
-      "version": "1.0.0",
-      "pluginOptions": {
-        "plugins": []
-      },
-      "nodeAPIs": [
-        "onCreateWebpackConfig"
-      ],
-      "browserAPIs": [],
-      "ssrAPIs": [],
-      "pluginFilepath": "C:/Users/Killian/repo/nebula/content/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
-      "packageJson": {
-        "name": "webpack-theme-component-shadowing",
-        "description": "An internal Gatsby plugin which handles configuring webpack to ensure theme components fall back from the user's site to theme modules.",
-        "version": "1.0.0",
-        "main": "index.js",
-        "author": "Chris Biscardi <chris@christopherbiscardi.com>",
-        "license": "MIT",
-        "dependencies": [],
-        "devDependencies": [],
-        "peerDependencies": [],
-        "optionalDependecies": [],
-        "bundledDependecies": []
-      },
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "contentDigest": "0e3a66b8651b0d9f4da241b95cdac070",
+        "contentDigest": "0563d1299cf40fdcc8a42d6cde5d9124",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "1943ff2f-9c0c-558d-8d0c-006603e8106a": {
-      "resolve": "C:/Users/Killian/repo/nebula/content/node_modules/gatsby-plugin-react-helmet",
+      "resolve": "/Users/lucas/repo/nebula/content/node_modules/gatsby-plugin-react-helmet",
       "id": "1943ff2f-9c0c-558d-8d0c-006603e8106a",
       "name": "gatsby-plugin-react-helmet",
-      "version": "3.0.4",
+      "version": "3.0.2",
       "pluginOptions": {
         "plugins": []
       },
@@ -244,11 +209,11 @@
       "ssrAPIs": [
         "onRenderBody"
       ],
-      "pluginFilepath": "C:/Users/Killian/repo/nebula/content/node_modules/gatsby-plugin-react-helmet",
+      "pluginFilepath": "/Users/lucas/repo/nebula/content/node_modules/gatsby-plugin-react-helmet",
       "packageJson": {
         "name": "gatsby-plugin-react-helmet",
         "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
-        "version": "3.0.4",
+        "version": "3.0.2",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -266,7 +231,10 @@
           "noscript",
           "style"
         ],
-        "author": "Kyle Mathews <matthews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "matthews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -285,7 +253,7 @@
           },
           {
             "name": "babel-preset-gatsby-package",
-            "version": "^0.1.3"
+            "version": "^0.1.2"
           },
           {
             "name": "cross-env",
@@ -308,20 +276,20 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "a859c09415d50fe908ed00313fd11efd",
+        "contentDigest": "25508ea6a00bffb4758df60c18c9202c",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "8fcb15ac-5893-5f4f-83a1-325b90671c54": {
-      "resolve": "C:/Users/Killian/repo/nebula/content/node_modules/gatsby-source-filesystem",
-      "id": "8fcb15ac-5893-5f4f-83a1-325b90671c54",
+    "ddff71e6-3acd-5356-8c9b-ddd6fcd0f61a": {
+      "resolve": "/Users/lucas/repo/nebula/content/node_modules/gatsby-source-filesystem",
+      "id": "ddff71e6-3acd-5356-8c9b-ddd6fcd0f61a",
       "name": "gatsby-source-filesystem",
-      "version": "2.0.12",
+      "version": "2.0.8",
       "pluginOptions": {
         "plugins": [],
         "name": "images",
-        "path": "C:\\Users\\Killian\\repo\\nebula\\content/src/images"
+        "path": "/Users/lucas/repo/nebula/content/src/images"
       },
       "nodeAPIs": [
         "sourceNodes",
@@ -329,16 +297,19 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "C:/Users/Killian/repo/nebula/content/node_modules/gatsby-source-filesystem",
+      "pluginFilepath": "/Users/lucas/repo/nebula/content/node_modules/gatsby-source-filesystem",
       "packageJson": {
         "name": "gatsby-source-filesystem",
         "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
-        "version": "2.0.12",
+        "version": "2.0.8",
         "keywords": [
           "gatsby",
           "gatsby-plugin"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -409,7 +380,7 @@
           },
           {
             "name": "babel-preset-gatsby-package",
-            "version": "^0.1.3"
+            "version": "^0.1.2"
           },
           {
             "name": "cross-env",
@@ -428,16 +399,16 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "4cc0fe7bfbd6374bd3829513a6ae6805",
+        "contentDigest": "b42fc81617d6aa3db74a1a176a8da488",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9": {
-      "resolve": "C:/Users/Killian/repo/nebula/content/node_modules/gatsby-transformer-sharp",
+      "resolve": "/Users/lucas/repo/nebula/content/node_modules/gatsby-transformer-sharp",
       "id": "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9",
       "name": "gatsby-transformer-sharp",
-      "version": "2.1.9",
+      "version": "2.1.8",
       "pluginOptions": {
         "plugins": []
       },
@@ -448,18 +419,21 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "C:/Users/Killian/repo/nebula/content/node_modules/gatsby-transformer-sharp",
+      "pluginFilepath": "/Users/lucas/repo/nebula/content/node_modules/gatsby-transformer-sharp",
       "packageJson": {
         "name": "gatsby-transformer-sharp",
         "description": "Gatsby transformer plugin for images using Sharp",
-        "version": "2.1.9",
+        "version": "2.1.8",
         "keywords": [
           "gatsby",
           "gatsby-plugin",
           "image",
           "sharp"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -498,7 +472,7 @@
           },
           {
             "name": "babel-preset-gatsby-package",
-            "version": "^0.1.3"
+            "version": "^0.1.2"
           },
           {
             "name": "cross-env",
@@ -521,13 +495,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "f5350135653241b6ff7af6bb7b1fe3a0",
+        "contentDigest": "df754d87edfb33b8c1acd235b3d14b30",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "df023fea-6045-5ca1-812f-a565ccebee48": {
-      "resolve": "C:/Users/Killian/repo/nebula/content/node_modules/gatsby-source-strapi",
+      "resolve": "/Users/lucas/repo/nebula/content/node_modules/gatsby-source-strapi",
       "id": "df023fea-6045-5ca1-812f-a565ccebee48",
       "name": "gatsby-source-strapi",
       "version": "0.0.6",
@@ -543,7 +517,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "C:/Users/Killian/repo/nebula/content/node_modules/gatsby-source-strapi",
+      "pluginFilepath": "/Users/lucas/repo/nebula/content/node_modules/gatsby-source-strapi",
       "packageJson": {
         "name": "gatsby-source-strapi",
         "description": "Gatsby source plugin for building websites using Strapi as a data source",
@@ -555,8 +529,8 @@
           "strapi"
         ],
         "author": {
-          "email": "hi@strapi.io",
           "name": "Strapi Solutions",
+          "email": "hi@strapi.io",
           "url": "http://strapi.io"
         },
         "license": "MIT",
@@ -619,13 +593,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "309d8f4b32086c8e84d3f8d53d6e6c9d",
+        "contentDigest": "309d7c010ec007987f7d701475ed5f44",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "9f28d07a-37b6-51d1-b2d0-5071b57d6dd2": {
-      "resolve": "C:/Users/Killian/repo/nebula/content/node_modules/gatsby-transformer-remark",
+      "resolve": "/Users/lucas/repo/nebula/content/node_modules/gatsby-transformer-remark",
       "id": "9f28d07a-37b6-51d1-b2d0-5071b57d6dd2",
       "name": "gatsby-transformer-remark",
       "version": "2.1.17",
@@ -638,7 +612,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "C:/Users/Killian/repo/nebula/content/node_modules/gatsby-transformer-remark",
+      "pluginFilepath": "/Users/lucas/repo/nebula/content/node_modules/gatsby-transformer-remark",
       "packageJson": {
         "name": "gatsby-transformer-remark",
         "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
@@ -649,7 +623,10 @@
           "markdown",
           "remark"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -759,16 +736,16 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "58249c5a4bdfb51350e98118263ccfd5",
+        "contentDigest": "ea42e62bc3d751dec214aeb12973c053",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "84d6154d-4241-556c-a679-cc8339cac100": {
-      "resolve": "C:/Users/Killian/repo/nebula/content/node_modules/gatsby-plugin-sharp",
+      "resolve": "/Users/lucas/repo/nebula/content/node_modules/gatsby-plugin-sharp",
       "id": "84d6154d-4241-556c-a679-cc8339cac100",
       "name": "gatsby-plugin-sharp",
-      "version": "2.0.15",
+      "version": "2.0.14",
       "pluginOptions": {
         "plugins": []
       },
@@ -777,11 +754,11 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "C:/Users/Killian/repo/nebula/content/node_modules/gatsby-plugin-sharp",
+      "pluginFilepath": "/Users/lucas/repo/nebula/content/node_modules/gatsby-plugin-sharp",
       "packageJson": {
         "name": "gatsby-plugin-sharp",
         "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
-        "version": "2.0.15",
+        "version": "2.0.14",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -789,7 +766,10 @@
           "image",
           "sharp"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -887,16 +867,16 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "559a1259e89ef71872d0bfa05104d27d",
+        "contentDigest": "db4ebc9f3d8310ee0c377cc56941437e",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "112c12f8-b222-509b-abe0-dfe93a905df9": {
-      "resolve": "C:/Users/Killian/repo/nebula/content/node_modules/gatsby-plugin-manifest",
+      "resolve": "/Users/lucas/repo/nebula/content/node_modules/gatsby-plugin-manifest",
       "id": "112c12f8-b222-509b-abe0-dfe93a905df9",
       "name": "gatsby-plugin-manifest",
-      "version": "2.0.12",
+      "version": "2.0.9",
       "pluginOptions": {
         "plugins": [],
         "name": "gatsby-starter-default",
@@ -914,11 +894,11 @@
       "ssrAPIs": [
         "onRenderBody"
       ],
-      "pluginFilepath": "C:/Users/Killian/repo/nebula/content/node_modules/gatsby-plugin-manifest",
+      "pluginFilepath": "/Users/lucas/repo/nebula/content/node_modules/gatsby-plugin-manifest",
       "packageJson": {
         "name": "gatsby-plugin-manifest",
         "description": "Gatsby plugin which adds a manifest.webmanifest to make sites progressive web apps",
-        "version": "2.0.12",
+        "version": "2.0.9",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -929,7 +909,10 @@
           "progressive-web-app",
           "pwa"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -956,7 +939,7 @@
           },
           {
             "name": "babel-preset-gatsby-package",
-            "version": "^0.1.3"
+            "version": "^0.1.2"
           },
           {
             "name": "cross-env",
@@ -975,16 +958,16 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "9b597b4e28c6dc5ad4b806cb4cdfabf0",
+        "contentDigest": "ab7a4083d886921ac62e35b161a98d12",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
-      "resolve": "C:/Users/Killian/repo/nebula/content",
+      "resolve": "/Users/lucas/repo/nebula/content",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "2398f0b4d6d978734defeec5b0971ac6",
+      "version": "ce7249b97a674170e5c96af572d353a8",
       "pluginOptions": {
         "plugins": []
       },
@@ -993,7 +976,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "C:/Users/Killian/repo/nebula/content",
+      "pluginFilepath": "/Users/lucas/repo/nebula/content",
       "packageJson": {
         "name": "nebula",
         "description": "Nebula - React|Gastby|Strapi",
@@ -1075,6 +1058,10 @@
           {
             "name": "react-redux",
             "version": "^6.0.0"
+          },
+          {
+            "name": "react-text-truncate",
+            "version": "^0.13.1"
           }
         ],
         "devDependencies": [
@@ -1090,19 +1077,19 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "d7caf7a3aaa8b648029f37f159998984",
+        "contentDigest": "077777452dc71d1b76557f22c35971c6",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "80d79b3c-1db7-57d8-9d1f-c2fceecc5e46": {
-      "resolve": "C:/Users/Killian/repo/nebula/content/node_modules/gatsby-plugin-page-creator",
-      "id": "80d79b3c-1db7-57d8-9d1f-c2fceecc5e46",
+    "4d194264-0b60-5592-89e7-dec0916afea2": {
+      "resolve": "/Users/lucas/repo/nebula/content/node_modules/gatsby-plugin-page-creator",
+      "id": "4d194264-0b60-5592-89e7-dec0916afea2",
       "name": "gatsby-plugin-page-creator",
-      "version": "2.0.5",
+      "version": "2.0.4",
       "pluginOptions": {
         "plugins": [],
-        "path": "C:/Users/Killian/repo/nebula/content/src/pages",
+        "path": "/Users/lucas/repo/nebula/content/src/pages",
         "pathCheck": false
       },
       "nodeAPIs": [
@@ -1110,17 +1097,20 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "C:/Users/Killian/repo/nebula/content/node_modules/gatsby-plugin-page-creator",
+      "pluginFilepath": "/Users/lucas/repo/nebula/content/node_modules/gatsby-plugin-page-creator",
       "packageJson": {
         "name": "gatsby-plugin-page-creator",
         "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
-        "version": "2.0.5",
+        "version": "2.0.4",
         "main": "index.js",
         "keywords": [
           "gatsby",
           "gatsby-plugin"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -1171,7 +1161,7 @@
           },
           {
             "name": "babel-preset-gatsby-package",
-            "version": "^0.1.3"
+            "version": "^0.1.2"
           },
           {
             "name": "cross-env",
@@ -1190,7 +1180,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "c544166e42e9edc827890836ea101dc6",
+        "contentDigest": "32b9fa6f31cbb1e4992e48883434febe",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1205,233 +1195,188 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-01-03T15:33:04.192Z",
+      "buildTime": "2019-01-03T20:59:34.729Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "ca9e0e717a0fbbb8401ba1850d9b5b3e",
+        "contentDigest": "458bb068f536f628f577164453bc40fa",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
     },
-    "df407b11-6086-50f0-bca8-fcd384abaaa3": {
-      "id": "df407b11-6086-50f0-bca8-fcd384abaaa3",
+    "21bceb84-0119-5059-8e6a-a3a351d22196": {
+      "id": "21bceb84-0119-5059-8e6a-a3a351d22196",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "7adf19bff54543785d96f7003d43f5c0",
+        "contentDigest": "7e2e65df9328714d7854d1d8fc1aa07f",
         "type": "Directory",
-        "description": "Directory \"src\\images\"",
+        "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "images",
-      "absolutePath": "C:/Users/Killian/repo/nebula/content/src/images",
+      "absolutePath": "/Users/lucas/repo/nebula/content/src/images",
       "relativePath": "",
       "extension": "",
-      "size": 0,
-      "prettySize": "0 B",
-      "modifiedTime": "2018-12-27T13:13:13.209Z",
-      "accessTime": "2018-12-27T13:13:13.209Z",
-      "changeTime": "2018-12-27T13:13:13.209Z",
-      "birthTime": "2018-12-27T13:13:13.207Z",
-      "root": "C:/",
-      "dir": "C:/Users/Killian/repo/nebula/content/src",
+      "size": 136,
+      "prettySize": "136 B",
+      "modifiedTime": "2018-12-27T23:53:12.000Z",
+      "accessTime": "2019-01-03T21:00:39.000Z",
+      "changeTime": "2018-12-27T23:53:12.000Z",
+      "birthTime": "2018-12-27T23:53:12.000Z",
+      "root": "/",
+      "dir": "/Users/lucas/repo/nebula/content/src",
       "base": "images",
       "ext": "",
       "name": "images",
       "relativeDirectory": "..",
-      "dev": 3267027805,
-      "mode": 16822,
-      "nlink": 1,
-      "uid": 0,
-      "gid": 0,
+      "dev": 16777218,
+      "mode": 16877,
+      "nlink": 4,
+      "uid": 501,
+      "gid": 20,
       "rdev": 0,
-      "ino": 1125899908391089,
-      "atimeMs": 1545916393209.0132,
-      "mtimeMs": 1545916393209.0132,
-      "ctimeMs": 1545916393209.0132,
-      "birthtimeMs": 1545916393207.0166,
-      "atime": "2018-12-27T13:13:13.209Z",
-      "mtime": "2018-12-27T13:13:13.209Z",
-      "ctime": "2018-12-27T13:13:13.209Z",
-      "birthtime": "2018-12-27T13:13:13.207Z"
+      "blksize": 4096,
+      "ino": 16948544,
+      "blocks": 0,
+      "atimeMs": 1546549239000,
+      "mtimeMs": 1545954792000,
+      "ctimeMs": 1545954792000,
+      "birthtimeMs": 1545954792000,
+      "atime": "2019-01-03T21:00:39.000Z",
+      "mtime": "2018-12-27T23:53:12.000Z",
+      "ctime": "2018-12-27T23:53:12.000Z",
+      "birthtime": "2018-12-27T23:53:12.000Z"
     },
-    "852e40dc-2390-53cc-b9eb-cb068dc17c3c": {
-      "id": "852e40dc-2390-53cc-b9eb-cb068dc17c3c",
+    "a9c72aa3-55b1-56a9-8837-4cec7af088e9": {
+      "id": "a9c72aa3-55b1-56a9-8837-4cec7af088e9",
       "children": [
-        "6bcc0644-7958-5644-bd95-33de39d4f985"
+        "29f610d5-23f3-5ce2-a775-ab07eb00980f"
       ],
       "parent": "___SOURCE___",
       "internal": {
         "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
         "type": "File",
         "mediaType": "image/png",
-        "description": "File \"src\\images\\gatsby-icon.png\"",
+        "description": "File \"src/images/gatsby-icon.png\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "images",
-      "absolutePath": "C:/Users/Killian/repo/nebula/content/src/images/gatsby-icon.png",
+      "absolutePath": "/Users/lucas/repo/nebula/content/src/images/gatsby-icon.png",
       "relativePath": "gatsby-icon.png",
       "extension": "png",
       "size": 21212,
       "prettySize": "21.2 kB",
-      "modifiedTime": "2018-12-27T13:13:13.209Z",
-      "accessTime": "2018-12-27T13:13:13.209Z",
-      "changeTime": "2018-12-27T13:13:13.209Z",
-      "birthTime": "2018-12-27T13:13:13.209Z",
-      "root": "C:/",
-      "dir": "C:/Users/Killian/repo/nebula/content/src/images",
+      "modifiedTime": "2018-12-27T23:53:12.000Z",
+      "accessTime": "2019-01-01T19:02:29.000Z",
+      "changeTime": "2018-12-27T23:53:12.000Z",
+      "birthTime": "2018-12-27T23:53:12.000Z",
+      "root": "/",
+      "dir": "/Users/lucas/repo/nebula/content/src/images",
       "base": "gatsby-icon.png",
       "ext": ".png",
       "name": "gatsby-icon",
       "relativeDirectory": "",
-      "dev": 3267027805,
-      "mode": 33206,
+      "dev": 16777218,
+      "mode": 33188,
       "nlink": 1,
-      "uid": 0,
-      "gid": 0,
+      "uid": 501,
+      "gid": 20,
       "rdev": 0,
-      "ino": 1125899908391091,
-      "atimeMs": 1545916393209.0132,
-      "mtimeMs": 1545916393209.0132,
-      "ctimeMs": 1545916393209.0132,
-      "birthtimeMs": 1545916393209.0132,
-      "atime": "2018-12-27T13:13:13.209Z",
-      "mtime": "2018-12-27T13:13:13.209Z",
-      "ctime": "2018-12-27T13:13:13.209Z",
-      "birthtime": "2018-12-27T13:13:13.209Z"
+      "blksize": 4096,
+      "ino": 16948546,
+      "blocks": 48,
+      "atimeMs": 1546369349000,
+      "mtimeMs": 1545954792000,
+      "ctimeMs": 1545954792000,
+      "birthtimeMs": 1545954792000,
+      "atime": "2019-01-01T19:02:29.000Z",
+      "mtime": "2018-12-27T23:53:12.000Z",
+      "ctime": "2018-12-27T23:53:12.000Z",
+      "birthtime": "2018-12-27T23:53:12.000Z"
     },
-    "6bcc0644-7958-5644-bd95-33de39d4f985": {
-      "id": "6bcc0644-7958-5644-bd95-33de39d4f985",
+    "29f610d5-23f3-5ce2-a775-ab07eb00980f": {
+      "id": "29f610d5-23f3-5ce2-a775-ab07eb00980f",
       "children": [],
-      "parent": "852e40dc-2390-53cc-b9eb-cb068dc17c3c",
+      "parent": "a9c72aa3-55b1-56a9-8837-4cec7af088e9",
       "internal": {
         "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "c01b6f4f-a1af-5861-98fe-3a97b21ace6f": {
-      "id": "c01b6f4f-a1af-5861-98fe-3a97b21ace6f",
+    "028b08c8-5e91-5067-acca-cfe066181fb9": {
+      "id": "028b08c8-5e91-5067-acca-cfe066181fb9",
       "children": [
-        "6d5d6b11-643b-5137-bc83-d77711292aa1"
+        "503a16f6-94b2-5a11-84c2-22c7979a74ec"
       ],
       "parent": "___SOURCE___",
       "internal": {
         "contentDigest": "6d91c86c0fde632ba4cd01062fd9ccfa",
         "type": "File",
         "mediaType": "image/png",
-        "description": "File \"src\\images\\gatsby-astronaut.png\"",
+        "description": "File \"src/images/gatsby-astronaut.png\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "images",
-      "absolutePath": "C:/Users/Killian/repo/nebula/content/src/images/gatsby-astronaut.png",
+      "absolutePath": "/Users/lucas/repo/nebula/content/src/images/gatsby-astronaut.png",
       "relativePath": "gatsby-astronaut.png",
       "extension": "png",
       "size": 167273,
       "prettySize": "167 kB",
-      "modifiedTime": "2018-12-27T13:13:13.208Z",
-      "accessTime": "2018-12-27T13:13:13.208Z",
-      "changeTime": "2018-12-27T13:13:13.208Z",
-      "birthTime": "2018-12-27T13:13:13.208Z",
-      "root": "C:/",
-      "dir": "C:/Users/Killian/repo/nebula/content/src/images",
+      "modifiedTime": "2018-12-27T23:53:12.000Z",
+      "accessTime": "2019-01-01T19:02:28.000Z",
+      "changeTime": "2018-12-27T23:53:12.000Z",
+      "birthTime": "2018-12-27T23:53:12.000Z",
+      "root": "/",
+      "dir": "/Users/lucas/repo/nebula/content/src/images",
       "base": "gatsby-astronaut.png",
       "ext": ".png",
       "name": "gatsby-astronaut",
       "relativeDirectory": "",
-      "dev": 3267027805,
-      "mode": 33206,
+      "dev": 16777218,
+      "mode": 33188,
       "nlink": 1,
-      "uid": 0,
-      "gid": 0,
+      "uid": 501,
+      "gid": 20,
       "rdev": 0,
-      "ino": 1125899908391090,
-      "atimeMs": 1545916393208.015,
-      "mtimeMs": 1545916393208.015,
-      "ctimeMs": 1545916393208.015,
-      "birthtimeMs": 1545916393208.015,
-      "atime": "2018-12-27T13:13:13.208Z",
-      "mtime": "2018-12-27T13:13:13.208Z",
-      "ctime": "2018-12-27T13:13:13.208Z",
-      "birthtime": "2018-12-27T13:13:13.208Z"
+      "blksize": 4096,
+      "ino": 16948545,
+      "blocks": 328,
+      "atimeMs": 1546369348000,
+      "mtimeMs": 1545954792000,
+      "ctimeMs": 1545954792000,
+      "birthtimeMs": 1545954792000,
+      "atime": "2019-01-01T19:02:28.000Z",
+      "mtime": "2018-12-27T23:53:12.000Z",
+      "ctime": "2018-12-27T23:53:12.000Z",
+      "birthtime": "2018-12-27T23:53:12.000Z"
     },
-    "6d5d6b11-643b-5137-bc83-d77711292aa1": {
-      "id": "6d5d6b11-643b-5137-bc83-d77711292aa1",
+    "503a16f6-94b2-5a11-84c2-22c7979a74ec": {
+      "id": "503a16f6-94b2-5a11-84c2-22c7979a74ec",
       "children": [],
-      "parent": "c01b6f4f-a1af-5861-98fe-3a97b21ace6f",
+      "parent": "028b08c8-5e91-5067-acca-cfe066181fb9",
       "internal": {
         "contentDigest": "6d91c86c0fde632ba4cd01062fd9ccfa",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "5c1ba4138c1a7740f0c04a03": {
-      "title": "Premier article",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis vel erat ullamcorper fermentum. Ut sagittis scelerisque dolor, eu feugiat nibh pellentesque vitae. Cras blandit eros in felis porttitor, ut pulvinar urna mollis. Quisque semper, quam lobortis suscipit convallis, odio lacus ullamcorper urna, quis viverra tortor nunc nec augue. Vestibulum consequat sapien mi, sed mollis augue auctor vitae. Maecenas maximus mauris ac nisl dignissim porttitor. Curabitur egestas facilisis lacus semper elementum.",
-      "date_create": "2018-12-20T23:00:00.000Z",
-      "url_slug": "article1",
-      "createdAt": "2018-12-20T14:15:47.676Z",
-      "updatedAt": "2019-01-03T15:32:50.078Z",
-      "strapiId": "5c1ba4138c1a7740f0c04a03",
-      "id": "5c1ba4138c1a7740f0c04a03",
+    "5c2934df3acd5c102f49d3fd": {
+      "title": "ok google",
+      "content": "dad dzzad",
+      "date_create": "2018-12-04T23:00:00.000Z",
+      "url_slug": "",
+      "createdAt": "2018-12-30T21:13:03.267Z",
+      "updatedAt": "2018-12-30T21:13:04.153Z",
+      "strapiId": "5c2934df3acd5c102f49d3fd",
+      "id": "5c2934df3acd5c102f49d3fd",
       "parent": "__SOURCE__",
       "children": [],
       "internal": {
         "type": "StrapiArticle",
-        "contentDigest": "f034b1b5540f67a1203cacd3cf325cd7",
-        "owner": "gatsby-source-strapi"
-      }
-    },
-    "5c1bc243877b520674b46bf3": {
-      "title": "Second Article ",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis vel erat ullamcorper fermentum. Ut sagittis scelerisque dolor, eu feugiat nibh pellentesque vitae. Cras blandit eros in felis porttitor, ut pulvinar urna mollis. Quisque semper, quam lobortis suscipit convallis, odio lacus ullamcorper urna, quis viverra tortor nunc nec augue. Vestibulum consequat sapien mi, sed mollis augue auctor vitae. Maecenas maximus mauris ac nisl dignissim porttitor. Curabitur egestas facilisis lacus semper elementum.",
-      "date_create": "2018-12-21T23:00:00.000Z",
-      "url_slug": "article2",
-      "createdAt": "2018-12-20T16:24:35.017Z",
-      "updatedAt": "2019-01-03T15:32:42.904Z",
-      "strapiId": "5c1bc243877b520674b46bf3",
-      "id": "5c1bc243877b520674b46bf3",
-      "parent": "__SOURCE__",
-      "children": [],
-      "internal": {
-        "type": "StrapiArticle",
-        "contentDigest": "a89917dca9bc0d0a5731a23953e79450",
-        "owner": "gatsby-source-strapi"
-      }
-    },
-    "5c1d0a34a75428224cccdf49": {
-      "title": "Troisieme Article",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis vel erat ullamcorper fermentum. Ut sagittis scelerisque dolor, eu feugiat nibh pellentesque vitae. Cras blandit eros in felis porttitor, ut pulvinar urna mollis. Quisque semper, quam lobortis suscipit convallis, odio lacus ullamcorper urna, quis viverra tortor nunc nec augue. Vestibulum consequat sapien mi, sed mollis augue auctor vitae. Maecenas maximus mauris ac nisl dignissim porttitor. Curabitur egestas facilisis lacus semper elementum.",
-      "date_create": "2018-12-20T13:00:00.000Z",
-      "url_slug": "article3",
-      "createdAt": "2018-12-21T15:43:48.190Z",
-      "updatedAt": "2019-01-03T15:32:34.527Z",
-      "strapiId": "5c1d0a34a75428224cccdf49",
-      "id": "5c1d0a34a75428224cccdf49",
-      "parent": "__SOURCE__",
-      "children": [],
-      "internal": {
-        "type": "StrapiArticle",
-        "contentDigest": "ca3d5ed57f4ec8c6b9a9bf79b555bc4e",
-        "owner": "gatsby-source-strapi"
-      }
-    },
-    "5c265c4e6b85db640c41dfaa": {
-      "title": "Quatrième article ",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis vel erat ullamcorper fermentum. Ut sagittis scelerisque dolor, eu feugiat nibh pellentesque vitae. Cras blandit eros in felis porttitor, ut pulvinar urna mollis. Quisque semper, quam lobortis suscipit convallis, odio lacus ullamcorper urna, quis viverra tortor nunc nec augue. Vestibulum consequat sapien mi, sed mollis augue auctor vitae. Maecenas maximus mauris ac nisl dignissim porttitor. Curabitur egestas facilisis lacus semper elementum.",
-      "date_create": "2018-12-10T23:00:00.000Z",
-      "url_slug": "article4",
-      "createdAt": "2018-12-28T17:24:30.667Z",
-      "updatedAt": "2019-01-03T15:32:21.022Z",
-      "strapiId": "5c265c4e6b85db640c41dfaa",
-      "id": "5c265c4e6b85db640c41dfaa",
-      "parent": "__SOURCE__",
-      "children": [],
-      "internal": {
-        "type": "StrapiArticle",
-        "contentDigest": "ba0e27b0f16fa486502a06e72b303f0a",
+        "contentDigest": "3c7a783268705d140cc09dda8751884b",
         "owner": "gatsby-source-strapi"
       }
     },
@@ -1439,19 +1384,19 @@
       "jsonName": "404-22d",
       "internalComponentName": "Component404",
       "path": "/404/",
-      "component": "C:/Users/Killian/repo/nebula/content/src/pages/404.js",
+      "component": "/Users/lucas/repo/nebula/content/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
-      "pluginCreator___NODE": "80d79b3c-1db7-57d8-9d1f-c2fceecc5e46",
-      "pluginCreatorId": "80d79b3c-1db7-57d8-9d1f-c2fceecc5e46",
-      "componentPath": "C:/Users/Killian/repo/nebula/content/src/pages/404.js",
+      "pluginCreator___NODE": "4d194264-0b60-5592-89e7-dec0916afea2",
+      "pluginCreatorId": "4d194264-0b60-5592-89e7-dec0916afea2",
+      "componentPath": "/Users/lucas/repo/nebula/content/src/pages/404.js",
       "id": "SitePage /404/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "388cbbe3515b32d9d1f5d135d8b1d2c6",
-        "description": "80d79b3c-1db7-57d8-9d1f-c2fceecc5e46",
+        "contentDigest": "ac54767e89772aac7851aaa43fe3f597",
+        "description": "4d194264-0b60-5592-89e7-dec0916afea2",
         "owner": "internal-data-bridge"
       }
     },
@@ -1459,19 +1404,19 @@
       "jsonName": "admin-d15",
       "internalComponentName": "ComponentAdmin",
       "path": "/admin/",
-      "component": "C:/Users/Killian/repo/nebula/content/src/pages/admin.js",
+      "component": "/Users/lucas/repo/nebula/content/src/pages/admin.js",
       "componentChunkName": "component---src-pages-admin-js",
       "context": {},
-      "pluginCreator___NODE": "80d79b3c-1db7-57d8-9d1f-c2fceecc5e46",
-      "pluginCreatorId": "80d79b3c-1db7-57d8-9d1f-c2fceecc5e46",
-      "componentPath": "C:/Users/Killian/repo/nebula/content/src/pages/admin.js",
+      "pluginCreator___NODE": "4d194264-0b60-5592-89e7-dec0916afea2",
+      "pluginCreatorId": "4d194264-0b60-5592-89e7-dec0916afea2",
+      "componentPath": "/Users/lucas/repo/nebula/content/src/pages/admin.js",
       "id": "SitePage /admin/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "1cb2965c31191b852739b30094ff28dc",
-        "description": "80d79b3c-1db7-57d8-9d1f-c2fceecc5e46",
+        "contentDigest": "5ad42bb3a50c87149d0e9d4d3153d181",
+        "description": "4d194264-0b60-5592-89e7-dec0916afea2",
         "owner": "internal-data-bridge"
       }
     },
@@ -1479,19 +1424,19 @@
       "jsonName": "article-c3a",
       "internalComponentName": "ComponentArticle",
       "path": "/article/",
-      "component": "C:/Users/Killian/repo/nebula/content/src/pages/article.js",
+      "component": "/Users/lucas/repo/nebula/content/src/pages/article.js",
       "componentChunkName": "component---src-pages-article-js",
       "context": {},
-      "pluginCreator___NODE": "80d79b3c-1db7-57d8-9d1f-c2fceecc5e46",
-      "pluginCreatorId": "80d79b3c-1db7-57d8-9d1f-c2fceecc5e46",
-      "componentPath": "C:/Users/Killian/repo/nebula/content/src/pages/article.js",
+      "pluginCreator___NODE": "4d194264-0b60-5592-89e7-dec0916afea2",
+      "pluginCreatorId": "4d194264-0b60-5592-89e7-dec0916afea2",
+      "componentPath": "/Users/lucas/repo/nebula/content/src/pages/article.js",
       "id": "SitePage /article/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "b3e622f1e6d6836ce2b0b7b9023c4a38",
-        "description": "80d79b3c-1db7-57d8-9d1f-c2fceecc5e46",
+        "contentDigest": "abd7d039eeb6e0018c833e8e8310db6d",
+        "description": "4d194264-0b60-5592-89e7-dec0916afea2",
         "owner": "internal-data-bridge"
       }
     },
@@ -1499,19 +1444,19 @@
       "jsonName": "articles-18f",
       "internalComponentName": "ComponentArticles",
       "path": "/articles/",
-      "component": "C:/Users/Killian/repo/nebula/content/src/pages/articles.js",
+      "component": "/Users/lucas/repo/nebula/content/src/pages/articles.js",
       "componentChunkName": "component---src-pages-articles-js",
       "context": {},
-      "pluginCreator___NODE": "80d79b3c-1db7-57d8-9d1f-c2fceecc5e46",
-      "pluginCreatorId": "80d79b3c-1db7-57d8-9d1f-c2fceecc5e46",
-      "componentPath": "C:/Users/Killian/repo/nebula/content/src/pages/articles.js",
+      "pluginCreator___NODE": "4d194264-0b60-5592-89e7-dec0916afea2",
+      "pluginCreatorId": "4d194264-0b60-5592-89e7-dec0916afea2",
+      "componentPath": "/Users/lucas/repo/nebula/content/src/pages/articles.js",
       "id": "SitePage /articles/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "7956dc1046572389213050c237bb7f12",
-        "description": "80d79b3c-1db7-57d8-9d1f-c2fceecc5e46",
+        "contentDigest": "7dcc63491330c0d820893c4fbf253c83",
+        "description": "4d194264-0b60-5592-89e7-dec0916afea2",
         "owner": "internal-data-bridge"
       }
     },
@@ -1519,19 +1464,19 @@
       "jsonName": "connect-725",
       "internalComponentName": "ComponentConnect",
       "path": "/connect/",
-      "component": "C:/Users/Killian/repo/nebula/content/src/pages/connect.js",
+      "component": "/Users/lucas/repo/nebula/content/src/pages/connect.js",
       "componentChunkName": "component---src-pages-connect-js",
       "context": {},
-      "pluginCreator___NODE": "80d79b3c-1db7-57d8-9d1f-c2fceecc5e46",
-      "pluginCreatorId": "80d79b3c-1db7-57d8-9d1f-c2fceecc5e46",
-      "componentPath": "C:/Users/Killian/repo/nebula/content/src/pages/connect.js",
+      "pluginCreator___NODE": "4d194264-0b60-5592-89e7-dec0916afea2",
+      "pluginCreatorId": "4d194264-0b60-5592-89e7-dec0916afea2",
+      "componentPath": "/Users/lucas/repo/nebula/content/src/pages/connect.js",
       "id": "SitePage /connect/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "12a632f28c5de7478f107273060853f1",
-        "description": "80d79b3c-1db7-57d8-9d1f-c2fceecc5e46",
+        "contentDigest": "e9f467e25c65fe85f835ce49d318d31c",
+        "description": "4d194264-0b60-5592-89e7-dec0916afea2",
         "owner": "internal-data-bridge"
       }
     },
@@ -1539,19 +1484,19 @@
       "jsonName": "event-b93",
       "internalComponentName": "ComponentEvent",
       "path": "/event/",
-      "component": "C:/Users/Killian/repo/nebula/content/src/pages/event.js",
+      "component": "/Users/lucas/repo/nebula/content/src/pages/event.js",
       "componentChunkName": "component---src-pages-event-js",
       "context": {},
-      "pluginCreator___NODE": "80d79b3c-1db7-57d8-9d1f-c2fceecc5e46",
-      "pluginCreatorId": "80d79b3c-1db7-57d8-9d1f-c2fceecc5e46",
-      "componentPath": "C:/Users/Killian/repo/nebula/content/src/pages/event.js",
+      "pluginCreator___NODE": "4d194264-0b60-5592-89e7-dec0916afea2",
+      "pluginCreatorId": "4d194264-0b60-5592-89e7-dec0916afea2",
+      "componentPath": "/Users/lucas/repo/nebula/content/src/pages/event.js",
       "id": "SitePage /event/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "6f70617eed061f5b9c740a965a73163c",
-        "description": "80d79b3c-1db7-57d8-9d1f-c2fceecc5e46",
+        "contentDigest": "0aa578bcf18a4b0593bc39989ea06b88",
+        "description": "4d194264-0b60-5592-89e7-dec0916afea2",
         "owner": "internal-data-bridge"
       }
     },
@@ -1559,19 +1504,19 @@
       "jsonName": "index",
       "internalComponentName": "ComponentIndex",
       "path": "/",
-      "component": "C:/Users/Killian/repo/nebula/content/src/pages/index.js",
+      "component": "/Users/lucas/repo/nebula/content/src/pages/index.js",
       "componentChunkName": "component---src-pages-index-js",
       "context": {},
-      "pluginCreator___NODE": "80d79b3c-1db7-57d8-9d1f-c2fceecc5e46",
-      "pluginCreatorId": "80d79b3c-1db7-57d8-9d1f-c2fceecc5e46",
-      "componentPath": "C:/Users/Killian/repo/nebula/content/src/pages/index.js",
+      "pluginCreator___NODE": "4d194264-0b60-5592-89e7-dec0916afea2",
+      "pluginCreatorId": "4d194264-0b60-5592-89e7-dec0916afea2",
+      "componentPath": "/Users/lucas/repo/nebula/content/src/pages/index.js",
       "id": "SitePage /",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f2f4c3a57b06f2add9874556d50a65c7",
-        "description": "80d79b3c-1db7-57d8-9d1f-c2fceecc5e46",
+        "contentDigest": "d957f55df05e2e1db3b14362b2432125",
+        "description": "4d194264-0b60-5592-89e7-dec0916afea2",
         "owner": "internal-data-bridge"
       }
     },
@@ -1579,18 +1524,18 @@
       "jsonName": "404-html-516",
       "internalComponentName": "Component404Html",
       "path": "/404.html",
-      "component": "C:/Users/Killian/repo/nebula/content/src/pages/404.js",
+      "component": "/Users/lucas/repo/nebula/content/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
       "pluginCreator___NODE": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
       "pluginCreatorId": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
-      "componentPath": "C:/Users/Killian/repo/nebula/content/src/pages/404.js",
+      "componentPath": "/Users/lucas/repo/nebula/content/src/pages/404.js",
       "id": "SitePage /404.html",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c3a4317e54159313be0127722a59a5d6",
+        "contentDigest": "e93d98a58e50778696694566c611dae8",
         "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
         "owner": "internal-data-bridge"
       }
@@ -1598,7 +1543,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "ed3a6f7df6d5ee66907146c2fdd56df3"
+    "PLUGINS_HASH": "9e99d6e78cb703cff5386b49e5669abc"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -1606,10 +1551,10 @@
         "sq--src-components-layout-js",
         "sq--src-components-seo-js"
       ],
-      "c01b6f4f-a1af-5861-98fe-3a97b21ace6f": [
+      "028b08c8-5e91-5067-acca-cfe066181fb9": [
         "sq--src-components-image-js"
       ],
-      "6d5d6b11-643b-5137-bc83-d77711292aa1": [
+      "503a16f6-94b2-5a11-84c2-22c7979a74ec": [
         "sq--src-components-image-js"
       ]
     },
@@ -1637,71 +1582,71 @@
     "admin-d15": "917/path---admin-d-15-2aa-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
-    "C:/Users/Killian/repo/nebula/content/.cache/dev-404-page.js": {
+    "/Users/lucas/repo/nebula/content/.cache/dev-404-page.js": {
       "query": "",
-      "componentPath": "C:/Users/Killian/repo/nebula/content/.cache/dev-404-page.js"
+      "componentPath": "/Users/lucas/repo/nebula/content/.cache/dev-404-page.js"
     },
-    "C:/Users/Killian/repo/nebula/content/src/pages/404.js": {
+    "/Users/lucas/repo/nebula/content/src/pages/404.js": {
       "query": "",
-      "componentPath": "C:/Users/Killian/repo/nebula/content/src/pages/404.js"
+      "componentPath": "/Users/lucas/repo/nebula/content/src/pages/404.js"
     },
-    "C:/Users/Killian/repo/nebula/content/src/pages/admin.js": {
+    "/Users/lucas/repo/nebula/content/src/pages/admin.js": {
       "query": "",
-      "componentPath": "C:/Users/Killian/repo/nebula/content/src/pages/admin.js"
+      "componentPath": "/Users/lucas/repo/nebula/content/src/pages/admin.js"
     },
-    "C:/Users/Killian/repo/nebula/content/src/pages/article.js": {
+    "/Users/lucas/repo/nebula/content/src/pages/article.js": {
       "query": "",
-      "componentPath": "C:/Users/Killian/repo/nebula/content/src/pages/article.js"
+      "componentPath": "/Users/lucas/repo/nebula/content/src/pages/article.js"
     },
-    "C:/Users/Killian/repo/nebula/content/src/pages/articles.js": {
+    "/Users/lucas/repo/nebula/content/src/pages/articles.js": {
       "query": "",
-      "componentPath": "C:/Users/Killian/repo/nebula/content/src/pages/articles.js"
+      "componentPath": "/Users/lucas/repo/nebula/content/src/pages/articles.js"
     },
-    "C:/Users/Killian/repo/nebula/content/src/pages/connect.js": {
+    "/Users/lucas/repo/nebula/content/src/pages/connect.js": {
       "query": "",
-      "componentPath": "C:/Users/Killian/repo/nebula/content/src/pages/connect.js"
+      "componentPath": "/Users/lucas/repo/nebula/content/src/pages/connect.js"
     },
-    "C:/Users/Killian/repo/nebula/content/src/pages/event.js": {
+    "/Users/lucas/repo/nebula/content/src/pages/event.js": {
       "query": "",
-      "componentPath": "C:/Users/Killian/repo/nebula/content/src/pages/event.js"
+      "componentPath": "/Users/lucas/repo/nebula/content/src/pages/event.js"
     },
-    "C:/Users/Killian/repo/nebula/content/src/pages/index.js": {
+    "/Users/lucas/repo/nebula/content/src/pages/index.js": {
       "query": "",
-      "componentPath": "C:/Users/Killian/repo/nebula/content/src/pages/index.js"
+      "componentPath": "/Users/lucas/repo/nebula/content/src/pages/index.js"
     }
   },
   "staticQueryComponents": {
+    "sq--src-components-articles-js": {
+      "name": "ArticlesQuery",
+      "componentPath": "/Users/lucas/repo/nebula/content/src/components/articles.js",
+      "id": "sq--src-components-articles-js",
+      "jsonName": "sq--src-components-articles-js",
+      "query": "query ArticlesQuery {\n  allStrapiArticle {\n    edges {\n      node {\n        id\n        title\n        content\n      }\n    }\n  }\n}\n",
+      "hash": 3790997570
+    },
     "sq--src-components-image-js": {
-      "name": "cUsersKillianRepoNebulaContentSrcComponentsImageJs2011440971",
-      "componentPath": "C:/Users/Killian/repo/nebula/content/src/components/image.js",
+      "name": "usersLucasRepoNebulaContentSrcComponentsImageJs2011440971",
+      "componentPath": "/Users/lucas/repo/nebula/content/src/components/image.js",
       "id": "sq--src-components-image-js",
       "jsonName": "sq--src-components-image-js",
-      "query": "query cUsersKillianRepoNebulaContentSrcComponentsImageJs2011440971 {\n  placeholderImage: file(relativePath: {eq: \"gatsby-astronaut.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 300) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "query": "query usersLucasRepoNebulaContentSrcComponentsImageJs2011440971 {\n  placeholderImage: file(relativePath: {eq: \"gatsby-astronaut.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 300) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
       "hash": 2011440971
-    },
-    "sq--src-components-layout-js": {
-      "name": "SiteTitleQuery",
-      "componentPath": "C:/Users/Killian/repo/nebula/content/src/components/layout.js",
-      "id": "sq--src-components-layout-js",
-      "jsonName": "sq--src-components-layout-js",
-      "query": "query SiteTitleQuery {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
-      "hash": 755544856
     },
     "sq--src-components-seo-js": {
       "name": "DefaultSEOQuery",
-      "componentPath": "C:/Users/Killian/repo/nebula/content/src/components/seo.js",
+      "componentPath": "/Users/lucas/repo/nebula/content/src/components/seo.js",
       "id": "sq--src-components-seo-js",
       "jsonName": "sq--src-components-seo-js",
       "query": "query DefaultSEOQuery {\n  site {\n    siteMetadata {\n      title\n      description\n      author\n    }\n  }\n}\n",
       "hash": 1025518380
     },
-    "sq--src-components-articles-js": {
-      "name": "ArticlesQuery",
-      "componentPath": "C:/Users/Killian/repo/nebula/content/src/components/articles.js",
-      "id": "sq--src-components-articles-js",
-      "jsonName": "sq--src-components-articles-js",
-      "query": "query ArticlesQuery {\n  allStrapiArticle {\n    edges {\n      node {\n        id\n        title\n        content\n      }\n    }\n  }\n}\n",
-      "hash": 3790997570
+    "sq--src-components-layout-js": {
+      "name": "SiteTitleQuery",
+      "componentPath": "/Users/lucas/repo/nebula/content/src/components/layout.js",
+      "id": "sq--src-components-layout-js",
+      "jsonName": "sq--src-components-layout-js",
+      "query": "query SiteTitleQuery {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
+      "hash": 755544856
     }
   }
 }
