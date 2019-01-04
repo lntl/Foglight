@@ -168,4 +168,19 @@ CHARTS
 .admin-panel .logout {
 	position: absolute;
 	right: 0;
+	bottom: 0;
+}
+.listof li {
+	padding: 15px;
+	border-bottom: 1px solid;
+	cursor: pointer;
+	display: inline-block;
+	margin: 10px 5px;
+	border: 1px solid;
+}
+.area {
+	max-width:100%;
+	min-width: 100%;
+	min-height: 150px;
+	max-height: 200px;
 }

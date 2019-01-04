@@ -11,7 +11,10 @@ class AdminPanel extends Component {
       user_datas:[],
       token:'',
       remember_me:true,
-      models:[]
+      models:[],
+      curent_datas_model:[],
+      curent_single_datas:[],
+      curent_content:''
     };
 
     this.handleChange = this.handleChange.bind(this);
@@ -19,6 +22,9 @@ class AdminPanel extends Component {
     this.logOut = this.logOut.bind(this);
     this.getDatasApi = this.getDatasApi.bind(this);
     this.bindModel = this.bindModel.bind(this);
+    this.getDatasFromModel = this.getDatasFromModel.bind(this);
+    this.toggleShow = this.toggleShow.bind(this);
+    this.setDatas = this.setDatas.bind(this);
   }
   handleChange(e) {
     this.setState({[e.target.name]: e.target.value});
@@ -48,26 +54,60 @@ class AdminPanel extends Component {
     e.preventDefault();
   }
 
+  setDatas(e) {
+    this.state.curent_single_datas.content = this.state.curent_content;
+    var token = sessionStorage.getItem('token');
+    console.log(this.state.curent_single_datas);
+    var id = this.state.curent_single_datas._id;
+    console.log(id);
+    fetch('http://localhost:1337/content-manager/explorer/:articles/:_id='+id, {
+      method: 'PUT',
+        headers: {
+          Authorization: `Bearer ${token}`
+      }
+    }).then((response) => response.json())
+    .then((responseJson) => {
+        console.log(responseJson)
+    })
+    e.preventDefault();
+  }
+
   logOut() {
     sessionStorage.clear();
     window.location="";
   }
 
-  bindModel() {
-    //console.log(this.value);
+  bindModel(e) {
+    var target = e.target.dataset.target;
+    this.getDatasFromModel(target);
   }
 
   getDatasApi(token) {
-      fetch('http://localhost:1337/content-manager/models', {
-        method: 'GET',
-          headers: {
-            Authorization: `Bearer ${token}`
-        }
-      }).then((response) => response.json())
-      .then((responseJson) => {
-          this.setState({models:responseJson.models.models})
-          sessionStorage.setItem('models', JSON.stringify(responseJson.models.models));
-      })
+    fetch('http://localhost:1337/content-manager/models', {
+      method: 'GET',
+        headers: {
+          Authorization: `Bearer ${token}`
+      }
+    }).then((response) => response.json())
+    .then((responseJson) => {
+        this.setState({models:responseJson.models.models})
+        sessionStorage.setItem('models', JSON.stringify(responseJson.models.models));
+    })
+  }
+
+  toggleShow(e) {
+    var target = e.target.dataset.target;
+    this.setState({curent_single_datas: this.state.curent_datas_model[target]})
+    this.setState({curent_content: this.state.curent_datas_model[target].content});
+  }
+
+  getDatasFromModel(model) {
+    var url = 'http://localhost:1337/'+model+'s';
+    fetch(url)
+    .then(res => res.json())
+    .then((result) => {
+      this.setState({curent_datas_model: result});
+    },);
   }
 
   componentDidMount() {
@@ -90,34 +130,37 @@ class AdminPanel extends Component {
     }
   }
 
-
   render() {
     var token = sessionStorage.getItem('token');
     if (token){
       let user_datas = JSON.parse(sessionStorage.getItem('user_datas'));
-      console.log(this.state.models);
-      let arr = this.state.models;
-      var size = Object.keys(this.state.models).length;
-      console.log(size)
-      for (var i=0; i<=size; i++) {
-        console.log(arr.article)
-      }
-      
-      
       return (
         <div className="admin-panel">
             <h1>Bonjour <strong>{user_datas.username}</strong><button onClick={this.logOut} className="logout">Logout</button></h1>
             <div className="nav-admin">
-              <h2>Liste des Models :</h2>
-              { Object.keys(this.state.models).map((item, i) => (
+              <h2>Content Type</h2>
+              { Object.entries(this.state.models).map((item, i) => (
                 <li key={i}>
-                {console.log(typeof item)}
-                    <button className="btn-parent" onClick={this.bindModel}>{item}</button>
+                    <button className="btn-parent" onClick={this.bindModel} data-target={item[1].collectionName}>{item[1].labelPlural}</button>
                 </li>
               )) }
             </div>
+            <div className="content-model">
+                <ul className="listof">
+                  {this.state.curent_datas_model.map((datas, key) =>
+                    <li key={datas.id} onClick={this.toggleShow} data-target={key}>{datas.title}</li>
+                  )}
+                </ul>
+                <div className="toggle-content">
+                  <p>Modifier le contenu</p>
+                  <form onSubmit={this.setDatas} data-target="model" data-id={this.state.curent_single_datas._id}>
+                    <textarea className="area" type="text" name="curent_content" value={this.state.curent_content} onChange={this.handleChange} />
+                    <button>Submit</button>
+                  </form>
+                </div>
+            </div>
         </div>);
-    } else { 
+    } else {
       return(
         <form onSubmit={this.handleSubmit} className="foglight-form log">
           <h2>Connexion</h2>

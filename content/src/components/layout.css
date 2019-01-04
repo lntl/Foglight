@@ -133,24 +133,34 @@ h1 {
   bottom: 10px;
 }
 .nav-admin{
-  position: fixed;
+  position: relative;
   top: 0;
   left: 0;
   z-index: 10;
-  background: #ccc;
   padding: 10px;
   font-size: 14px;
-  height: 100%;
+  border-bottom: 1px solid;
+}
+.nav-admin li{
+  display: inline-block;
 }
 .nav-admin h2{
   margin-bottom: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 .nav-admin .btn-parent {
   margin: 0;
   width: 100%;
   text-align: left;
   border-bottom: 1px solid;
-  padding: 3px;
+  padding: 10px;
+  background: none;
+  color: #000;
+  border: none;
+}
+.nav-admin .btn-parent:hover{
+  color:#4e876a;
 }
 @media only screen and (max-width: 480px) {
   html {
