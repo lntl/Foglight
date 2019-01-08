@@ -58,13 +58,23 @@ class AdminPanel extends Component {
     this.state.curent_single_datas.content = this.state.curent_content;
     var token = sessionStorage.getItem('token');
     console.log(this.state.curent_single_datas);
-    var id = this.state.curent_single_datas._id;
-    console.log(id);
-    fetch('http://localhost:1337/content-manager/explorer/:articles/:_id='+id, {
-      method: 'PUT',
+    var id = this.state.curent_single_datas.id;
+    console.log(token);
+    fetch('http://localhost:1337/content-manager/explorer/articles?id='+id, {
+      method: 'POST',
         headers: {
-          Authorization: `Bearer ${token}`
-      }
+          Authorization: `Bearer ${token}`,
+          'Content-Type':'application/json'
+      },
+      body: JSON.stringify({
+        content: this.state.curent_single_datas.content,
+        date_create: this.state.curent_single_datas.date_create,
+        id: this.state.curent_single_datas.id,
+        title: this.state.curent_single_datas.title,
+        url_slug: this.state.curent_single_datas.url_slug,
+        __v:this.state.curent_single_datas.__v,
+        _id:this.state.curent_single_datas.id
+      })
     }).then((response) => response.json())
     .then((responseJson) => {
         console.log(responseJson)

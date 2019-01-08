@@ -1209,12 +1209,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-01-04T09:58:56.349Z",
+      "buildTime": "2019-01-07T13:29:09.370Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "15255b421b7220ad45d6a65c8ac34ec2",
+        "contentDigest": "dbc7f22b8812dee2927f1ad0b8099ed3",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1373,35 +1373,35 @@
     },
     "5c1ba4138c1a7740f0c04a03": {
       "title": "Premier article",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis vel erat ullamcorper fermentum. Ut sagittis scelerisque dolor, eu feugiat nibh pellentesque vitae. Cras blandit eros in felis porttitor, ut pulvinar urna mollis. Quisque semper, quam lobortis suscipit convallis, odio lacus ullamcorper urna, quis viverra tortor nunc nec augue. Vestibulum consequat sapien mi, sed mollis augue auctor vitae. Maecenas maximus mauris ac nisl dignissim porttitor. Curabitur egestas facilisis lacus semper elementum.",
+      "content": "Kiffer, dérivé du mot kif, est un verbe familier français qui initialement désignait l’action de fumer du haschich ou cannabis, mais aussi le plaisir qui y est assodazdié.",
       "date_create": "2018-12-20T23:00:00.000Z",
       "url_slug": "article1",
       "createdAt": "2018-12-20T14:15:47.676Z",
-      "updatedAt": "2019-01-03T15:32:50.078Z",
+      "updatedAt": "2019-01-07T08:59:49.235Z",
       "strapiId": "5c1ba4138c1a7740f0c04a03",
       "id": "5c1ba4138c1a7740f0c04a03",
       "parent": "__SOURCE__",
       "children": [],
       "internal": {
         "type": "StrapiArticle",
-        "contentDigest": "f034b1b5540f67a1203cacd3cf325cd7",
+        "contentDigest": "865ed85b3a0de4764c497eec6c24e83a",
         "owner": "gatsby-source-strapi"
       }
     },
     "5c1bc243877b520674b46bf3": {
       "title": "Second Article ",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis vel erat ullamcorper fermentum. Ut sagittis scelerisque dolor, eu feugiat nibh pellentesque vitae. Cras blandit eros in felis porttitor, ut pulvinar urna mollis. Quisque semper, quam lobortis suscipit convallis, odio lacus ullamcorper urna, quis viverra tortor nunc nec augue. Vestibulum consequat sapien mi, sed mollis augue auctor vitae. Maecenas maximus mauris ac nisl dignissim porttitor. Curabitur egestas facilisis lacus semper elementum.",
+      "content": "employé par les jeunes générations issues de l'immigration magrébine, puis est devenu de plus en plus couramment employé par les adolescents et jeunes adultes. Si le reste de la population l’emploie plus rarement, il est du moins compris par la plus grande majorité des Français, et a fait son entrée dans les dictionnaires. ",
       "date_create": "2018-12-21T23:00:00.000Z",
       "url_slug": "article2",
       "createdAt": "2018-12-20T16:24:35.017Z",
-      "updatedAt": "2019-01-03T15:32:42.904Z",
+      "updatedAt": "2019-01-04T14:44:47.121Z",
       "strapiId": "5c1bc243877b520674b46bf3",
       "id": "5c1bc243877b520674b46bf3",
       "parent": "__SOURCE__",
       "children": [],
       "internal": {
         "type": "StrapiArticle",
-        "contentDigest": "a89917dca9bc0d0a5731a23953e79450",
+        "contentDigest": "a6872d84073d5f525a4f748db15b64a1",
         "owner": "gatsby-source-strapi"
       }
     },
@@ -1424,18 +1424,18 @@
     },
     "5c265c4e6b85db640c41dfaa": {
       "title": "Quatrième article ",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis vel erat ullamcorper fermentum. Ut sagittis scelerisque dolor, eu feugiat nibh pellentesque vitae. Cras blandit eros in felis porttitor, ut pulvinar urna mollis. Quisque semper, quam lobortis suscipit convallis, odio lacus ullamcorper urna, quis viverra tortor nunc nec augue. Vestibulum consequat sapien mi, sed mollis augue auctor vitae. Maecenas maximus mauris ac nisl dignissim porttitor. Curabitur egestas facilisis lacus semper elementum.",
+      "content": "En octobre 2008, les services culturels de l'Ambassade de France aux États-Unis en partenariat avec le magazine TRACE ont organisé à New York un festival nommé I Kiffe NY–French Urban Cultures sur le thème des cultures urbaines.",
       "date_create": "2018-12-10T23:00:00.000Z",
       "url_slug": "article4",
       "createdAt": "2018-12-28T17:24:30.667Z",
-      "updatedAt": "2019-01-03T15:32:21.022Z",
+      "updatedAt": "2019-01-04T14:50:27.199Z",
       "strapiId": "5c265c4e6b85db640c41dfaa",
       "id": "5c265c4e6b85db640c41dfaa",
       "parent": "__SOURCE__",
       "children": [],
       "internal": {
         "type": "StrapiArticle",
-        "contentDigest": "ba0e27b0f16fa486502a06e72b303f0a",
+        "contentDigest": "31b91b73de25b5d231dd3c702b79ce0a",
         "owner": "gatsby-source-strapi"
       }
     },
@@ -1607,8 +1607,8 @@
   "componentDataDependencies": {
     "nodes": {
       "Site": [
-        "sq--src-components-seo-js",
-        "sq--src-components-layout-js"
+        "sq--src-components-layout-js",
+        "sq--src-components-seo-js"
       ],
       "c01b6f4f-a1af-5861-98fe-3a97b21ace6f": [
         "sq--src-components-image-js"
